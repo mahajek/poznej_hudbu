@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+/* barva žlutá = #fce73e
+barva červená = #e73d4a
+barva zelená = #067d85
+barva fialová = #81399f */
+
+body {
+  background-color: #fce73e;
+}
+
+.main-page {
+  margin-left: 17rem;
+}
+
+h1 {
+  font-family: 'Kristi';
+  font-size: 6rem;
+  font-weight: lighter;
+  color: #81399f;
+  margin-left: 18rem;
+}
+
+h2 {
+  font-family: 'Trebuchet MS';
+  font-size: 1.2rem;
+  margin-left: 19rem;
+  /* font-style: italic; */
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Trebuchet MS';
+  font-size: 1.2rem;
+  color: #fce73e;
+  background-color: rgba(0, 0, 0, 0.548);
+  padding: 1.2rem;
+  margin: 1.2rem;
+}
+
+.note {
+  background-image: url(poznej_noty.jpg);
+  width: 400px;
+  height: 300px;
+}
+
+.instruments {
+  background-image: url(poznej_nastroje.jpg);
+  width: 400px;
+  height: 300px;
+}
+
+.composer {
+  background-image: url(poznej_skladatele.jpg);
+  width: 400px;
+  height: 300px;
+}
+
+.livemusic {
+  background-image: url(poznej_hudbunazivo.jpg);
+  width: 400px;
+  height: 300px;
+}
