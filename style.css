@@ -8,13 +8,12 @@ html {
   box-sizing: inherit;
 }
 
-/* barva žlutá = #fce73e
-barva červená = #e73d4a
-barva zelená = #067d85
-barva fialová = #81399f */
+/* barva žlutá = #ffcc40
+barva červená = #f55d50
+barva modrá = #56cad0 */
 
 body {
-  background-color: #ffffff;
+  background-image: url(pozadi.png);
 }
 
 main {
@@ -22,18 +21,30 @@ main {
   margin: 0 auto;
 }
 
+.main-page {
+  margin: 0 auto;
+}
+
 h1 {
-  font-family: 'Anton';
+  font-family: 'League Spartan Bold', arial;
   font-size: 5rem;
   font-weight: lighter;
   text-transform: uppercase;
-  letter-spacing: 1.2rem;
-  color: #e73d4a;
+  color: #ffcc40;
 }
 
 h2 {
   font-family: 'Open Sans Condensed';
   font-size: 1.2rem;
+  color: white;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed';
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  width: 35rem;
 }
 
 section {
@@ -46,44 +57,51 @@ a {
   justify-content: center;
   font-family: 'Open Sans Condensed';
   font-size: 1.3rem;
-  font-weight: 500;
-  color: #fce73e;
+  font-weight: 600;
+  color: #ffcc40;
   text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.548);
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.548); */
   padding: 1.2rem;
-  margin: 1.2rem;
+  margin: 4rem;
   margin-top: 7rem;
 }
 
 a:hover,
 a:focus {
-  color: #e73d4a;
+  color: #f55d50;
 }
 
 .note {
   background-image: url(img/poznej_noty.jpg);
-  width: 25rem;
-  height: 18.75rem;
+  width: 20rem;
+  height: 20rem;
   margin: 1rem;
+  border-radius: 50%;
 }
 
 .instruments {
   background-image: url(img/poznej_nastroje.jpg);
-  width: 25rem;
-  height: 18.75rem;
+  width: 20rem;
+  height: 20rem;
   margin: 1rem;
+  border-radius: 50%;
 }
 
 .composer {
   background-image: url(img/poznej_skladatele.jpg);
-  width: 25rem;
-  height: 18.75rem;
+  width: 20rem;
+  height: 20rem;
   margin: 1rem;
+  border-radius: 50%;
 }
 
 .livemusic {
   background-image: url(img/poznej_hudbunazivo.jpg);
-  width: 25rem;
-  height: 18.75rem;
+  width: 20rem;
+  height: 20rem;
   margin: 1rem;
+  border-radius: 50%;
 }
