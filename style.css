@@ -10,24 +10,26 @@ html {
 
 /* barva žlutá = #ffcc40
 barva červená = #f55d50
-barva modrá = #56cad0 */
+barva modrá = #082b42
+barva zelená #0f7260 */
 
 body {
   background-image: url(pozadi.png);
+  background-size: cover;
 }
 
 main {
-  max-width: 60rem;
-  margin: 0 auto;
+  max-width: 40rem;
+  margin: 3rem;
 }
 
 .main-page {
-  margin: 0 auto;
+  margin-left: 3rem;
 }
 
 h1 {
   font-family: 'League Spartan Bold', arial;
-  font-size: 5rem;
+  font-size: 4.3rem;
   font-weight: lighter;
   text-transform: uppercase;
   color: #ffcc40;
@@ -36,72 +38,80 @@ h1 {
 h2 {
   font-family: 'Open Sans Condensed';
   font-size: 1.2rem;
-  color: white;
+  color: #082b42;
 }
 
 h3 {
   font-family: 'Open Sans Condensed';
   font-size: 1rem;
-  color: white;
-  text-align: center;
+  color: #082b42;
+  text-align: justify;
   width: 35rem;
 }
 
 section {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 a {
   display: flex;
   justify-content: center;
   font-family: 'Open Sans Condensed';
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #ffcc40;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   text-align: center;
-  /* background-color: rgba(0, 0, 0, 0.548); */
   padding: 1.2rem;
   margin: 4rem;
-  margin-top: 7rem;
+  margin-top: 3.4rem;
 }
 
 a:hover,
 a:focus {
-  color: #f55d50;
+  color: #ffcc40;
 }
 
 .note {
-  background-image: url(img/poznej_noty.jpg);
-  width: 20rem;
-  height: 20rem;
+  background-image: url(img/poznej_noty.png);
+  width: 15rem;
+  height: 15rem;
   margin: 1rem;
   border-radius: 50%;
+  border: solid;
+  border-color: #082b42;
 }
 
 .instruments {
-  background-image: url(img/poznej_nastroje.jpg);
-  width: 20rem;
-  height: 20rem;
+  background-image: url(img/poznej_nastroje.png);
+  width: 15rem;
+  height: 15rem;
   margin: 1rem;
   border-radius: 50%;
+  border: solid;
+  border-color: #082b42;
 }
 
 .composer {
-  background-image: url(img/poznej_skladatele.jpg);
-  width: 20rem;
-  height: 20rem;
+  background-image: url(img/poznej_skladatele.png);
+  width: 15rem;
+  height: 15rem;
   margin: 1rem;
   border-radius: 50%;
+  border: solid;
+  border-color: #082b42;
 }
 
 .livemusic {
-  background-image: url(img/poznej_hudbunazivo.jpg);
-  width: 20rem;
-  height: 20rem;
+  background-image: url(img/poznej_hudbunazivo.png);
+  width: 15rem;
+  height: 15rem;
   margin: 1rem;
   border-radius: 50%;
+  border: solid;
+  border-color: #082b42;
 }
