@@ -20,7 +20,7 @@ const App = () => (
               <PageNotes />
             </Route>
             <Route path="/poznej-nastroje">
-              <PageInstruments />
+              <PageInstruments nadpis="Já jsem nadpis h1 na stránce Instruments" />
             </Route>
             <Route path="/poznej-skladatele">
               <PageComposers />
