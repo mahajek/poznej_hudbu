@@ -5,10 +5,35 @@
 html {
   box-sizing: border-box;
   font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 *,
 ::after,
 ::before {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.footer {
+  height: 2rem;
+  /* transform: translateX(-2rem); */
+  margin-top: -2rem;
+  color: #080b0e;
+  text-align: center;
+  font-family: 'Open Sans Condensed';
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
