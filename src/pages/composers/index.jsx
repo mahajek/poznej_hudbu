@@ -47,6 +47,7 @@ export const PageComposers = () => {
       <main>
         <div class="main-page">
           <h1>Poznej skladatele</h1>
+          <Kviz otazky={questions} />
         </div>
       </main>
     </>

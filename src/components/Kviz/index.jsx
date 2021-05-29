@@ -39,6 +39,7 @@ export const Kviz = (props) => {
           <div className="answer-section">
             {props.otazky[currentQuestion].answerOptions.map((answerOption) => (
               <button
+                className="tlacitko-kviz"
                 onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}
                 key={answerOption.answerText}
               >

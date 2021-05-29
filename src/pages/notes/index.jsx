@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import './style.css';
 
 import { Klavesy } from '../../components/Klavesy/index';
+import { Kviz } from '../../components/Kviz';
 
 export const PageNotes = () => {
   const questions = [
@@ -49,6 +50,7 @@ export const PageNotes = () => {
       <main>
         <div class="main-page">
           <h1>Poznej noty</h1>
+          <Kviz otazky={questions} />
           <div class="music-symbols"></div>
           <Klavesy />
         </div>

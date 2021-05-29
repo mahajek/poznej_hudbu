@@ -1,5 +1,5 @@
 .app {
-  background-color: #252d4a;
+  background-color: #f55d50;
   width: 450px;
   min-height: 200px;
   height: min-content;
@@ -52,7 +52,7 @@
   justify-content: space-between;
 }
 
-button {
+.tlacitko-kviz {
   width: 100%;
   font-size: 16px;
   color: #ffffff;
