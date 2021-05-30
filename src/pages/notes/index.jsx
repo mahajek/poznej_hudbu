@@ -6,6 +6,7 @@ import { Klavesy } from '../../components/Klavesy/index';
 import { Kviz } from '../../components/Kviz/index';
 import { ovcaciCtveraci } from './ovcaciCtveraci.js';
 import { Nota } from '../../components/Nota/index';
+import { Navigace } from '../../components/Navigace';
 
 export const Notes = () => {
   const questions = [
@@ -71,6 +72,7 @@ export const Notes = () => {
       <main>
         <div className="main-page">
           <h1>Poznej noty</h1>
+          <Navigace title="Poznej noty" />
           {nota}
           <div className="ton">
             {ovcaciCtveraci.map((objektVpoli) => {

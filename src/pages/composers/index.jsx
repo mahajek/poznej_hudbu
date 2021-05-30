@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import './style.css';
 
 import { Kviz } from '../../components/Kviz';
+import { Navigace } from '../../components/Navigace';
 
 export const Composers = () => {
   const questions = [

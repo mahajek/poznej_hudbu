@@ -3,6 +3,7 @@ import './style.css';
 import React, { useState } from 'react';
 
 import { Kviz } from '../../components/Kviz';
+import { Navigace } from '../../components/Navigace';
 
 export const Instruments = (props) => {
   const questions = [
