@@ -48,11 +48,11 @@ export const Notes = () => {
   return (
     <>
       <main>
-        <div class="main-page">
+        <div className="main-page">
           <h1>Poznej noty</h1>
-          <Kviz otazky={questions} />
-          <div class="music-symbols"></div>
           <Klavesy />
+          <div class="music-symbols"></div>
+          <Kviz otazky={questions} />
         </div>
       </main>
     </>

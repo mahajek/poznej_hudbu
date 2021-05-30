@@ -72,10 +72,10 @@ barva zelená #0f7260 */
 
 .bila:hover,
 .bila.is-active {
-  background-color: #fcdf91;
+  background-color: #ffbb00;
 }
 
 .cerna:hover,
 .cerna.is-active {
-  background-color: #0d3a58;
+  background-color: #f55d50;
 }

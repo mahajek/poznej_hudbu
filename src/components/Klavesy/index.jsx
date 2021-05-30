@@ -195,55 +195,55 @@ export const Klavesy = (props) => {
   return (
     <div className="klavesy">
       <button className={changeC1()} onClick={playC1}>
-        <span class="bila__letter">s</span>
+        <span className="bila__letter">s</span>
       </button>
 
       <button className={changeD()} onClick={playD}>
-        <span class="bila__letter">d</span>
+        <span className="bila__letter">d</span>
       </button>
 
       <button className={changeE()} onClick={playE}>
-        <span class="bila__letter">f</span>
+        <span className="bila__letter">f</span>
       </button>
 
       <button className={changeF()} onClick={playF}>
-        <span class="bila__letter">g</span>
+        <span className="bila__letter">g</span>
       </button>
 
       <button className={changeG()} onClick={playG}>
-        <span class="bila__letter">h</span>
+        <span className="bila__letter">h</span>
       </button>
 
       <button className={changeA()} onClick={playA}>
-        <span class="bila__letter">j</span>
+        <span className="bila__letter">j</span>
       </button>
 
       <button className={changeH()} onClick={playH}>
-        <span class="bila__letter">k</span>
+        <span className="bila__letter">k</span>
       </button>
 
       <button className={changeC2()} onClick={playC2}>
-        <span class="bila__letter">l</span>
+        <span className="bila__letter">l</span>
       </button>
 
       <button className={changeCis()} onClick={playCis}>
-        <span class="cerna__letter">e</span>
+        <span className="cerna__letter">e</span>
       </button>
 
       <button className={changeDis()} onClick={playDis}>
-        <span class="cerna__letter">r</span>
+        <span className="cerna__letter">r</span>
       </button>
 
       <button className={changeFis()} onClick={playFis}>
-        <span class="cerna__letter">y</span>
+        <span className="cerna__letter">y</span>
       </button>
 
       <button className={changeGis()} onClick={playGis}>
-        <span class="cerna__letter">u</span>
+        <span className="cerna__letter">u</span>
       </button>
 
       <button className={changeAis()} onClick={playAis}>
-        <span class="cerna__letter">i</span>
+        <span className="cerna__letter">i</span>
       </button>
     </div>
   );

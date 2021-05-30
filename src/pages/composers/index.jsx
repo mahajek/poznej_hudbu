@@ -25,7 +25,7 @@ export const Composers = () => {
         { answerText: 'František Škroup', isCorrect: true },
         { answerText: 'Antonín Dvořák', isCorrect: false },
       ],
-    },  
+    },
     {
       questionText: 'The iPhone was created by which company?',
       answerOptions: [
@@ -49,7 +49,7 @@ export const Composers = () => {
   return (
     <>
       <main>
-        <div class="main-page">
+        <div className="main-page">
           <h1>Poznej skladatele</h1>
           <Kviz otazky={questions} />
         </div>

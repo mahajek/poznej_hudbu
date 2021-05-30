@@ -6,7 +6,7 @@ export const Parents = () => {
   return (
     <>
       <main>
-        <div class="main-page">
+        <div className="main-page">
           <h1>Poznej hudbu s rodiči</h1>
         </div>
       </main>
