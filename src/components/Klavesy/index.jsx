@@ -182,7 +182,6 @@ export const Klavesy = (props) => {
     }
     return 'cerna cerna--cis';
   };
-
   const changeDis = () => {
     if (nota === 'playDis') {
       return 'cerna cerna--dis is-active';
@@ -210,66 +209,60 @@ export const Klavesy = (props) => {
   };
 
   return (
-    <div className="klavesy">
-      <button className={changeC1()} onClick={playC1}>
-        <span className="bila__letter">s</span>
-      </button>
+    <div className="klavesy__container">
+      <div className="klavesy">
+        <button className={changeC1()} onClick={playC1}>
+          <span className="bila__letter">s</span>
+        </button>
 
-      <button className={changeD()} onClick={playD}>
-        <span className="bila__letter">d</span>
-      </button>
+        <button className={changeD()} onClick={playD}>
+          <span className="bila__letter">d</span>
+        </button>
 
-      <button className={changeE()} onClick={playE}>
-        <span className="bila__letter">f</span>
-      </button>
+        <button className={changeE()} onClick={playE}>
+          <span className="bila__letter">f</span>
+        </button>
 
-      <button className={changeF()} onClick={playF}>
-        <span className="bila__letter">g</span>
-      </button>
+        <button className={changeF()} onClick={playF}>
+          <span className="bila__letter">g</span>
+        </button>
 
-      <button className={changeG()} onClick={playG}>
-        <span className="bila__letter">h</span>
-      </button>
+        <button className={changeG()} onClick={playG}>
+          <span className="bila__letter">h</span>
+        </button>
 
-      <button className={changeA()} onClick={playA}>
-        <span className="bila__letter">j</span>
-      </button>
+        <button className={changeA()} onClick={playA}>
+          <span className="bila__letter">j</span>
+        </button>
 
-      <button className={changeH()} onClick={playH}>
-        <span className="bila__letter">k</span>
-      </button>
+        <button className={changeH()} onClick={playH}>
+          <span className="bila__letter">k</span>
+        </button>
 
-      <button className={changeC2()} onClick={playC2}>
-        <span className="bila__letter">l</span>
-      </button>
+        <button className={changeC2()} onClick={playC2}>
+          <span className="bila__letter">l</span>
+        </button>
 
-      <button className={changeCis()} onClick={playCis}>
-        <span className="cerna__letter">e</span>
-      </button>
+        <button className={changeCis()} onClick={playCis}>
+          <span className="cerna__letter">e</span>
+        </button>
 
-      <button className={changeDis()} onClick={playDis}>
-        <span className="cerna__letter">r</span>
-      </button>
+        <button className={changeDis()} onClick={playDis}>
+          <span className="cerna__letter">r</span>
+        </button>
 
-      <button className={changeFis()} onClick={playFis}>
-        <span className="cerna__letter">y</span>
-      </button>
+        <button className={changeFis()} onClick={playFis}>
+          <span className="cerna__letter">y</span>
+        </button>
 
-      <button className={changeGis()} onClick={playGis}>
-        <span className="cerna__letter">u</span>
-      </button>
+        <button className={changeGis()} onClick={playGis}>
+          <span className="cerna__letter">u</span>
+        </button>
 
-      <button className={changeAis()} onClick={playAis}>
-        <span className="cerna__letter">i</span>
-      </button>
+        <button className={changeAis()} onClick={playAis}>
+          <span className="cerna__letter">i</span>
+        </button>
+      </div>
     </div>
   );
 };
-
-// const handleKey = (e) => {
-//   if (e.keyCode === 13) {
-//     playC1();
-//   }
-// };
-
-// onKeyPress={(e) => handler(e)}

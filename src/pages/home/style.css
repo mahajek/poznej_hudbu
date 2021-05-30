@@ -27,7 +27,7 @@ h1 {
 
 h2 {
   font-family: 'Open Sans Condensed';
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #082b42;
 }
 
@@ -49,14 +49,14 @@ a {
   display: flex;
   justify-content: center;
   font-family: 'Open Sans Condensed';
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #082b42;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.3rem;
   text-align: center;
-  padding: 1.2rem;
+  padding: 1.1rem;
   margin: 4rem;
   margin-top: 1.7rem;
 }

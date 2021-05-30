@@ -4,20 +4,26 @@ barva modrá = #082b42
 barva zelená #0f7260 */
 
 .klavesy {
-  width: 20rem;
-  margin: 3rem auto;
+  /* width: 22em; */
+  margin: 3em auto;
   display: flex;
-  justify-content: baseline;
   position: relative;
   box-shadow: 0.1px 0.8px 1px 1px rgba(0, 0, 0, 0.897);
+  font-size: inherit;
+}
+
+.klavesy__container {
+  font-size: 1rem;
+  display: flex;
 }
 
 .bila {
-  width: 2.5rem;
-  height: 10rem;
+  width: 4.5em;
+  height: 17em;
   border: 1px solid #0f1111;
   background-color: ivory;
   position: relative;
+  font-size: inherit;
 }
 
 .bila__letter,
@@ -42,32 +48,33 @@ barva zelená #0f7260 */
 }
 
 .cerna {
-  width: 1.5rem;
-  height: 6rem;
+  width: 2.5em;
+  height: 9.2em;
   border: 1.5px solid #0f1111;
   background-color: #0f1111;
   z-index: 1;
   position: absolute;
+  font-size: inherit;
 }
 
 .cerna--cis {
-  left: 1.75rem;
+  left: 3em;
 }
 
 .cerna--dis {
-  left: 4.3rem;
+  left: 8em;
 }
 
 .cerna--fis {
-  left: 9.3rem;
+  left: 16.7em;
 }
 
 .cerna--gis {
-  left: 11.7rem;
+  left: 21.3em;
 }
 
 .cerna--ais {
-  left: 14.2rem;
+  left: 25.9em;
 }
 
 .bila:hover,

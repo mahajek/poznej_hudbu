@@ -50,6 +50,7 @@ export const Instruments = (props) => {
       <main>
         <div className="main-page">
           <h1>{props.nadpis}</h1>
+          <Navigace />
           <Kviz otazky={questions} />
         </div>
       </main>
