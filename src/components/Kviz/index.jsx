@@ -34,7 +34,10 @@ export const Kviz = (props) => {
             <div className="otazka">
               {props.otazky[currentQuestion].questionText}
             </div>
-            <div className="obrazek">{props.otazky.obrazek}</div>
+            <img
+              className="obrazek"
+              src={props.otazky[currentQuestion].obrazek}
+            />
           </div>
 
           <div className="answer-section">

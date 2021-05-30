@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
 import { Klavesy } from '../../components/Klavesy/index';
 import { Kviz } from '../../components/Kviz/index';
+import { ovcaciCtveraci } from './ovcaciCtveraci.js';
+import { Nota } from '../../components/Nota/index';
 
 export const Notes = () => {
   const questions = [
@@ -36,22 +38,29 @@ export const Notes = () => {
     },
     {
       questionText: 'How many Harry Potter books are there?',
-      answerOptions: [
-        { answerText: '1', isCorrect: false },
-        { answerText: '4', isCorrect: false },
-        { answerText: '6', isCorrect: false },
-        { answerText: '7', isCorrect: true },
-      ],
     },
   ];
 
+  const [nota, setNota] = useState('');
+
+  const zahranaKlavesa = (klavesa) => {
+    setNota(klavesa);
+  };
   return (
     <>
       <main>
         <div className="main-page">
           <h1>Poznej noty</h1>
-          <Klavesy />
-          <div class="music-symbols"></div>
+          {nota}
+          <div className="ton">
+            {tony.map((objektVpoli) => {
+              return <Nota nazev={objektVpoli.id} />;
+            })}
+          </div>
+
+          <Klavesy zahrano={zahranaKlavesa} />
+
+          <div className="music-symbols"></div>
           <Kviz otazky={questions} />
         </div>
       </main>

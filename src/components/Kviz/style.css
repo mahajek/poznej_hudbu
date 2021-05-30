@@ -106,3 +106,8 @@ button:focus {
 button svg {
   margin-right: 5px;
 }
+
+.obrazek {
+  max-height: 10rem;
+  border: 1px solid #ffbb00;
+}

@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-import './tony.js';
+import './mp3.js';
 
 export const Klavesy = (props) => {
   const [nota, setNota] = useState('');
+
+  // callback
+  const { zahrano } = props;
 
   useEffect(() => {
     console.log('start');
@@ -15,57 +18,71 @@ export const Klavesy = (props) => {
     };
   }, []);
 
-  const playC1 = (e) => {
+  // zahraje tón, fce zahrano - předává hodnotu do rodiče Notes
+  const playC1 = () => {
     new Audio('./assets/tony/c1.mp3').play();
     setNota('playC1');
+    zahrano('playC1');
   };
   const playD = () => {
     new Audio('./assets/tony/d.mp3').play();
     setNota('playD');
+    zahrano('playD');
   };
   const playE = () => {
     new Audio('./assets/tony/e.mp3').play();
     setNota('playE');
+    zahrano('playE');
   };
   const playF = () => {
     new Audio('./assets/tony/f.mp3').play();
     setNota('playF');
+    zahrano('playF');
   };
   const playG = () => {
     new Audio('./assets/tony/g.mp3').play();
     setNota('playG');
+    zahrano('playG');
   };
   const playA = () => {
     new Audio('./assets/tony/a.mp3').play();
     setNota('playA');
+    zahrano('playA');
   };
   const playH = () => {
     new Audio('./assets/tony/h.mp3').play();
     setNota('playH');
+    zahrano('playH');
   };
   const playC2 = () => {
     new Audio('./assets/tony/c2.mp3').play();
     setNota('playC2');
+    zahrano('playC2');
   };
   const playCis = () => {
     new Audio('./assets/tony/cis.mp3').play();
     setNota('playCis');
+    zahrano('playCis');
   };
   const playDis = () => {
     new Audio('./assets/tony/dis.mp3').play();
     setNota('playDis');
+    zahrano('playDis');
   };
   const playFis = () => {
     new Audio('./assets/tony/fis.mp3').play();
     setNota('playFis');
+    zahrano('playFis');
   };
   const playGis = () => {
     new Audio('./assets/tony/gis.mp3').play();
     setNota('playGis');
+    zahrano('playGis');
   };
   const playAis = () => {
     new Audio('./assets/tony/ais.mp3').play();
     setNota('playAis');
+    zahrano('playAis');
   };
 
   const keepPlay = (e) => {
