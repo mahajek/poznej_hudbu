@@ -22,67 +22,67 @@ export const Klavesy = (props) => {
   const playC1 = () => {
     new Audio('./assets/tony/c1.mp3').play();
     setNota('playC1');
-    zahrano('playC1');
+    zahrano('C');
   };
   const playD = () => {
     new Audio('./assets/tony/d.mp3').play();
     setNota('playD');
-    zahrano('playD');
+    zahrano('D');
   };
   const playE = () => {
     new Audio('./assets/tony/e.mp3').play();
     setNota('playE');
-    zahrano('playE');
+    zahrano('E');
   };
   const playF = () => {
     new Audio('./assets/tony/f.mp3').play();
     setNota('playF');
-    zahrano('playF');
+    zahrano('F');
   };
   const playG = () => {
     new Audio('./assets/tony/g.mp3').play();
     setNota('playG');
-    zahrano('playG');
+    zahrano('G');
   };
   const playA = () => {
     new Audio('./assets/tony/a.mp3').play();
     setNota('playA');
-    zahrano('playA');
+    zahrano('A');
   };
   const playH = () => {
     new Audio('./assets/tony/h.mp3').play();
     setNota('playH');
-    zahrano('playH');
+    zahrano('H');
   };
   const playC2 = () => {
     new Audio('./assets/tony/c2.mp3').play();
     setNota('playC2');
-    zahrano('playC2');
+    zahrano('C2');
   };
   const playCis = () => {
     new Audio('./assets/tony/cis.mp3').play();
     setNota('playCis');
-    zahrano('playCis');
+    zahrano('Cis');
   };
   const playDis = () => {
     new Audio('./assets/tony/dis.mp3').play();
     setNota('playDis');
-    zahrano('playDis');
+    zahrano('Dis');
   };
   const playFis = () => {
     new Audio('./assets/tony/fis.mp3').play();
     setNota('playFis');
-    zahrano('playFis');
+    zahrano('Fis');
   };
   const playGis = () => {
     new Audio('./assets/tony/gis.mp3').play();
     setNota('playGis');
-    zahrano('playGis');
+    zahrano('Gis');
   };
   const playAis = () => {
     new Audio('./assets/tony/ais.mp3').play();
     setNota('playAis');
-    zahrano('playAis');
+    zahrano('Ais');
   };
 
   const keepPlay = (e) => {

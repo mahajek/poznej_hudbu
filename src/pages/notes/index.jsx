@@ -43,9 +43,29 @@ export const Notes = () => {
 
   const [nota, setNota] = useState('');
 
+  const myList = [...ovcaciCtveraci];
+
+  const testPlay = (list) => {
+    if (!list.length) {
+      return;
+    }
+    if (!list[0].test) {
+      testPlay(list.shift());
+      return;
+    }
+    if (nota === list[0].id || nota === 'E1/8') {
+      console.log('succes nastavit notu na správně');
+      list.shift();
+    } else {
+      console.log('chyba, nota nebyla správně');
+    }
+  };
+
   const zahranaKlavesa = (klavesa) => {
     setNota(klavesa);
+    testPlay(myList);
   };
+
   return (
     <>
       <main>
@@ -53,7 +73,7 @@ export const Notes = () => {
           <h1>Poznej noty</h1>
           {nota}
           <div className="ton">
-            {tony.map((objektVpoli) => {
+            {ovcaciCtveraci.map((objektVpoli) => {
               return <Nota nazev={objektVpoli.id} />;
             })}
           </div>
