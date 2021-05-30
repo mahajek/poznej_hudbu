@@ -66,7 +66,7 @@ a:focus {
   color: #ffbb00;
 }
 
-.note {
+.notes {
   background-image: url(../../assets/img/poznej_noty.png);
   width: 10rem;
   height: 10rem;
@@ -85,7 +85,7 @@ a:focus {
   border: solid;
   border-color: #082b42;
 }
-.livemusic {
+.parents {
   background-image: url(../../assets/img/poznej_hudbunazivo.png);
   width: 10rem;
   height: 10rem;
@@ -95,7 +95,7 @@ a:focus {
   border-color: #082b42;
 }
 
-.composer {
+.composers {
   background-image: url(../../assets/img/poznej_skladatele.png);
   width: 10rem;
   height: 10rem;

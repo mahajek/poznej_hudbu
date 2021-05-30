@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './style.css';
 
+
 export const Kviz = (props) => {
+
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
@@ -20,7 +22,7 @@ export const Kviz = (props) => {
   };
 
   return (
-    <div className="app">
+    <div className="kviz">
       {showScore ? (
         <div className="score-section">
           You scored {score} out of {props.otazky.length}
@@ -28,11 +30,13 @@ export const Kviz = (props) => {
       ) : (
         <>
           <div className="question-section">
+
             <div className="question-count">
-              <span>Question {currentQuestion + 1}</span>/{props.otazky.length}
+              <span>Otázka {currentQuestion + 1}</span>/{props.otazky.length}
             </div>
-            <div className="question-text">
-              {props.otazky[currentQuestion].questionText}
+            <div>{props.otazky[currentQuestion].questionText}</div>
+            <div className="obrazek">
+              {props.otazky.obrazek}
             </div>
           </div>
 

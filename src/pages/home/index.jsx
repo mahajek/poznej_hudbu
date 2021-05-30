@@ -4,7 +4,7 @@ import './style.css';
 
 import { Link } from 'react-router-dom';
 
-export const PageHome = () => {
+export const Home = () => {
   return (
     <>
       <main>
@@ -21,16 +21,16 @@ export const PageHome = () => {
             pariatur ipsa molestias nesciunt veniam ad dolorum?
           </h3>
           <section>
-            <div className="note">
+            <div className="notes">
               <Link to="/poznej-noty">Poznej noty</Link>
             </div>
             <div className="instruments">
               <Link to="/poznej-nastroje">Poznej nástroje</Link>
             </div>
-            <div className="composer">
+            <div className="composers">
               <Link to="/poznej-skladatele">Poznej skladatele</Link>
             </div>
-            <div className="livemusic">
+            <div className="parents">
               <Link to="/poznej-srodici">Poznej hudbu s rodiči</Link>
             </div>
           </section>

@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 import { Kviz } from '../../components/Kviz';
 
-export const PageInstruments = (props) => {
+export const Instruments = (props) => {
   const questions = [
     {
       questionText: 'What is the capital of France?',

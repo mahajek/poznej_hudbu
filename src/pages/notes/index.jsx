@@ -3,9 +3,9 @@ import { render } from 'react-dom';
 import './style.css';
 
 import { Klavesy } from '../../components/Klavesy/index';
-import { Kviz } from '../../components/Kviz';
+import { Kviz } from '../../components/Kviz/index';
 
-export const PageNotes = () => {
+export const Notes = () => {
   const questions = [
     {
       questionText: 'What is the capital of France?',

@@ -4,11 +4,11 @@ import './style.css';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import { PageHome } from './pages/home/index';
-import { PageNotes } from './pages/notes/index';
-import { PageInstruments } from './pages/instruments/index';
-import { PageComposers } from './pages/composers/index';
-import { PageParents } from './pages/parents/index';
+import { Home } from './pages/Home/index';
+import { Notes } from './pages/Notes/index';
+import { Instruments } from './pages/Instruments/index';
+import { Composers } from './pages/Composers/index';
+import { Parents } from './pages/Parents/index';
 
 const App = () => (
   <>
@@ -17,19 +17,19 @@ const App = () => (
         <div>
           <Switch>
             <Route path="/poznej-noty">
-              <PageNotes />
+              <Notes />
             </Route>
             <Route path="/poznej-nastroje">
-              <PageInstruments nadpis="Já jsem nadpis h1 na stránce Instruments" />
+              <Instruments nadpis="Poznej nástroje" />
             </Route>
             <Route path="/poznej-skladatele">
-              <PageComposers />
+              <Composers />
             </Route>
             <Route path="/poznej-srodici">
-              <PageParents />
+              <Parents />
             </Route>
             <Route path="/">
-              <PageHome />
+              <Home />
             </Route>
           </Switch>
         </div>

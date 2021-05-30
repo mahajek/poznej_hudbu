@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
-export const PageParents = () => {
+export const Parents = () => {
   return (
     <>
       <main>

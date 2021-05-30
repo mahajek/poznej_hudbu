@@ -1,3 +1,8 @@
+/* barva žlutá = #ffbb00
+barva červená = #f55d50
+barva modrá = #082b42
+barva zelená #0f7260 */
+
 .klavesy {
   width: 20rem;
   margin: 3rem auto;
@@ -10,7 +15,7 @@
 .bila {
   width: 2.5rem;
   height: 10rem;
-  border: 1px solid black;
+  border: 1px solid #0f1111;
   background-color: ivory;
   position: relative;
 }
@@ -20,28 +25,27 @@
   position: absolute;
   display: block;
   text-align: center;
-  top: 0.2rem;
   width: 100%;
   left: 0;
-  opacity: 0.5;
+  opacity: 0.3;
   font-weight: bold;
+  font-size: 0.9rem;
+  color: #082b42;
 }
 
 .bila__letter {
-  color: black;
-  top: 1rem;
+  top: 10rem;
 }
 
 .cerna__letter {
-  color: ivory;
-  font-size: 0.7rem;
+  top: -1.1rem;
 }
 
 .cerna {
   width: 1.5rem;
   height: 6rem;
-  border: 1.5px solid black;
-  background-color: black;
+  border: 1.5px solid #0f1111;
+  background-color: #0f1111;
   z-index: 1;
   position: absolute;
 }
@@ -68,10 +72,10 @@
 
 .bila:hover,
 .bila.is-active {
-  background-color: rgb(255, 255, 207);
+  background-color: #fcdf91;
 }
 
 .cerna:hover,
 .cerna.is-active {
-  background-color: darkgrey;
+  background-color: #0d3a58;
 }

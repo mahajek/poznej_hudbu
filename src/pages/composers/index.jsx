@@ -2,26 +2,30 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
-export const PageComposers = () => {
+import { Kviz } from '../../components/Kviz';
+
+export const Composers = () => {
   const questions = [
     {
-      questionText: 'What is the capital of France?',
+      questionText: 'Kdo je autorem naší státní hymny "Kde domov můj?',
       answerOptions: [
-        { answerText: 'New York', isCorrect: false },
-        { answerText: 'London', isCorrect: false },
-        { answerText: 'Paris', isCorrect: true },
-        { answerText: 'Dublin', isCorrect: false },
+        { answerText: 'Bedřich Smetana', isCorrect: false },
+        { answerText: 'Ludwig van Beethoven', isCorrect: false },
+        { answerText: 'František Škroup', isCorrect: true },
+        { answerText: 'Antonín Dvořák', isCorrect: false },
       ],
     },
     {
-      questionText: 'Who is CEO of Tesla?',
+      questionText: 'Poznáš skladatele na obrázku?',
+      obrazek:
+        'https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg',
       answerOptions: [
-        { answerText: 'Jeff Bezos', isCorrect: false },
-        { answerText: 'Elon Musk', isCorrect: true },
-        { answerText: 'Bill Gates', isCorrect: false },
-        { answerText: 'Tony Stark', isCorrect: false },
+        { answerText: 'Bedřich Smetana', isCorrect: false },
+        { answerText: 'Ludwig van Beethoven', isCorrect: false },
+        { answerText: 'František Škroup', isCorrect: true },
+        { answerText: 'Antonín Dvořák', isCorrect: false },
       ],
-    },
+    },  
     {
       questionText: 'The iPhone was created by which company?',
       answerOptions: [

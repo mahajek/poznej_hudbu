@@ -159,7 +159,6 @@ export const Klavesy = (props) => {
     }
     return 'bila';
   };
-
   const changeCis = () => {
     if (nota === 'playCis') {
       return 'cerna cerna--cis is-active';
@@ -196,54 +195,55 @@ export const Klavesy = (props) => {
   return (
     <div className="klavesy">
       <button className={changeC1()} onClick={playC1}>
-        <span class="bila__letter">S</span>
-      </button>
-
-      <button className={changeCis()} onClick={playCis}>
-        <span class="cerna__letter">D</span>
+        <span class="bila__letter">s</span>
       </button>
 
       <button className={changeD()} onClick={playD}>
-        <span class="bila__letter">F</span>
-      </button>
-
-      <button className={changeDis()} onClick={playDis}>
-        <span class="cerna__letter">G</span>
+        <span class="bila__letter">d</span>
       </button>
 
       <button className={changeE()} onClick={playE}>
-        <span class="bila__letter">H</span>
+        <span class="bila__letter">f</span>
       </button>
 
       <button className={changeF()} onClick={playF}>
-        <span class="bila__letter">J</span>
-      </button>
-      <button className={changeFis()} onClick={playFis}>
-        <span class="cerna__letter">K</span>
+        <span class="bila__letter">g</span>
       </button>
 
       <button className={changeG()} onClick={playG}>
-        <span class="bila__letter">L</span>
-      </button>
-
-      <button className={changeGis()} onClick={playGis}>
-        <span class="cerna__letter">E</span>
+        <span class="bila__letter">h</span>
       </button>
 
       <button className={changeA()} onClick={playA}>
-        <span class="bila__letter">R</span>
-      </button>
-
-      <button className={changeAis()} onClick={playAis}>
-        <span class="cerna__letter">Z</span>
+        <span class="bila__letter">j</span>
       </button>
 
       <button className={changeH()} onClick={playH}>
-        <span class="bila__letter">U</span>
+        <span class="bila__letter">k</span>
       </button>
 
       <button className={changeC2()} onClick={playC2}>
-        <span class="bila__letter">I</span>
+        <span class="bila__letter">l</span>
+      </button>
+
+      <button className={changeCis()} onClick={playCis}>
+        <span class="cerna__letter">e</span>
+      </button>
+
+      <button className={changeDis()} onClick={playDis}>
+        <span class="cerna__letter">r</span>
+      </button>
+
+      <button className={changeFis()} onClick={playFis}>
+        <span class="cerna__letter">y</span>
+      </button>
+
+      <button className={changeGis()} onClick={playGis}>
+        <span class="cerna__letter">u</span>
+      </button>
+
+      <button className={changeAis()} onClick={playAis}>
+        <span class="cerna__letter">i</span>
       </button>
     </div>
   );
