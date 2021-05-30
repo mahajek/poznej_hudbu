@@ -2,6 +2,7 @@ import { render } from 'react-dom';
 import './style.css';
 import React, { useState } from 'react';
 
+import { Nastroje } from '../../components/Nastroje';
 import { Kviz } from '../../components/Kviz';
 import { Navigace } from '../../components/Navigace';
 
@@ -51,6 +52,7 @@ export const Instruments = (props) => {
         <div className="main-page">
           <h1>{props.nadpis}</h1>
           <Navigace />
+          <Nastroje />
           <Kviz otazky={questions} />
         </div>
       </main>
