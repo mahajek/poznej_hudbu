@@ -16,13 +16,17 @@ barva zelená #0f7260 */
 }
 
 .nastroje__item {
-  width: 15rem;
-  height: 15rem;
-  background-color: #f55d50;
-  margin: 0.5rem;
+  width: 14rem;
+  height: 14rem;
+  background-color: white;
+  margin: auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
 }
 .nastroje img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: 50%;
 }
