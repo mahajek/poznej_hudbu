@@ -5,18 +5,22 @@ barva zelená #0f7260 */
 
 .kviz {
   background-color: #f55d50;
-  width: 450px;
+  width: 400px;
   min-height: 200px;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 10px 10px 42px 0px #082b42b2;
-  display: flex;
   /* justify-content: space-evenly; */
   flex-wrap: wrap;
   margin-top: 5rem;
   margin: 3rem auto;
   font-family: 'Open Sans Condensed';
+  border-radius: 10%;
+  display: flex;
+  position: absolute;
+  right: 3rem;
+  top: 16rem;
 }
 
 .score-section {
@@ -37,6 +41,7 @@ barva zelená #0f7260 */
 
 .question-count {
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .question-count span {
@@ -50,7 +55,7 @@ barva zelená #0f7260 */
 }
 
 .question-text {
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
 
 .timer-text {
@@ -68,7 +73,7 @@ barva zelená #0f7260 */
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .tlacitko-kviz {

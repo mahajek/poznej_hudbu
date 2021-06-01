@@ -1,3 +1,8 @@
+body {
+  background-image: url(../../assets/img/pozadi.png);
+  background-size: cover;
+}
+
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -9,24 +14,3 @@ h3 {
 barva červená = #f55d50
 barva modrá = #082b42
 barva zelená #0f7260 */
-
-.nastroje {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nastroje__item {
-  width: 14rem;
-  height: 14rem;
-  background-color: white;
-  margin: auto;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: white;
-}
-.nastroje img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
