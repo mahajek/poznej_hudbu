@@ -104,3 +104,8 @@ a:focus {
   border: solid;
   border-color: #082b42;
 }
+
+.main-page--h3 {
+  width: 50rem;
+  text-align: justify;
+}

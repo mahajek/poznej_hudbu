@@ -4,6 +4,7 @@ import './style.css';
 
 import { Kviz } from '../../components/Kviz';
 import { Navigace } from '../../components/Navigace';
+import { Umelci } from '../../components/Umelci';
 
 export const Composers = () => {
   const questions = [
@@ -51,8 +52,9 @@ export const Composers = () => {
     <>
       <main>
         <div className="main-page">
-          <h1>Poznej skladatele</h1>
+          <h1>Poznej umělce</h1>
           <Navigace />
+          <Umelci />
           <Kviz otazky={questions} />
         </div>
       </main>
