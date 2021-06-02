@@ -3,16 +3,7 @@ import './style.css';
 
 import { Artists } from '../Artists';
 
-// const Artists = (props) => {
-//   <div className="umelci__item">
-//     <p className="umelci__label">{props.label}</p>
-//     <img className="umelci__picture" src={props.picture} />
-//     <p className="umelci__text">{props.text} </p>
-//   </div>;
-// };
-
 export const Umelci = () => {
-
   const classic = [
     {
       label: 'Wolfgang Amadeus Mozart',
@@ -94,10 +85,15 @@ export const Umelci = () => {
       <p className="umelci__section">Představitelé klasické hudby</p>
       <div>
         {classic.map((item) => (
-          <Artists label={item.label} picture={item.picture} text={item.text} />
+          <Artists
+            key={item.label}
+            label={item.label}
+            picture={item.picture}
+            text={item.text}
+          />
         ))}
       </div>
-      <p className="umelci__section">Představitelé klasické hudby</p>
+      <p className="umelci__section">Představitelé moderní hudby</p>
       <div>
         {modern.map((item) => (
           <Artists
