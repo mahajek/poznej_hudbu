@@ -63,24 +63,12 @@ export const Notes = () => {
           </div>
 
           <Klavesy zahrano={zahranaKlavesa} />
-          <img src="../../assets/img/rozdeleni_not.jpg" alt="Rozdělení not" />
-          <img src="../../assets/img/stupnice_cdur.jpg" alt="Stupnice C dur" />
-          <img src="../../assets/img/stupnice_ddur.jpg" alt="Stupnice D dur" />
-          <img src="../../assets/img/cely_takt.jpg" alt="Celý takt" />
-          <img
-            src="../../assets/img/stupnice_ctyrctvrtovy_takt.jpg"
-            alt="Čtyřčtvrťový takt"
-          />
-          <img src="../../assets/img/cely_takt.jpg" alt="Celý takt" />
-          <img
-            src="../../assets/img/trictvrtovy_takt.jpg"
-            alt="Tříčtvrťový takt"
-          />
-          <img
-            src="../../assets/img/dvouctvrtovy_takt.jpg"
-            alt="Dvoučtvrťový takt"
-          />
-
+          <div className="prehled-not">
+            <img src="../../assets/img/rozdeleni_not.jpg" alt="Rozdělení not" />
+          </div>
+          <div className="takty">
+            <img src="../../assets/img/prehled_not.jpg" alt="Rozdělení not" />
+          </div>
           <div className="music-symbols"></div>
           <Kviz otazky={questions} />
         </div>
