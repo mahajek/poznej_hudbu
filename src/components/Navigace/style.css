@@ -8,6 +8,7 @@ barva zelená #0f7260 */
   position: absolute;
   right: 0;
   top: 0;
+  /* position: fixed; */
 }
 
 .navigace__item:hover,
@@ -33,6 +34,9 @@ barva zelená #0f7260 */
 .navigace__item--notes {
   background-image: url(../../assets/img/poznej_noty.png);
 }
+.navigace__item--songs {
+  background-image: url(../../assets/img/poznej_pisnicku.png);
+}
 .navigace__item--instruments {
   background-image: url(../../assets/img/poznej_nastroje.png);
 }
@@ -44,5 +48,5 @@ barva zelená #0f7260 */
 }
 
 .navigace__item.is-active {
-  display: none;
+  /* display: none; */
 }

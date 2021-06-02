@@ -50,7 +50,7 @@ export const Instruments = (props) => {
     <>
       <main>
         <div className="main-page">
-          <h1>{props.nadpis}</h1>
+          <h1 className="main-page__nadpis">{props.nadpis}</h1>
           <Navigace />
           <Kviz otazky={questions} />
           <Nastroje />

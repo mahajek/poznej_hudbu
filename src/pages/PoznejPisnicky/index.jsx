@@ -8,7 +8,7 @@ import { ovcaciCtveraci } from './ovcaciCtveraci.js';
 import { Nota } from '../../components/Nota/index';
 import { Navigace } from '../../components/Navigace';
 
-export const Notes = () => {
+export const PoznejPisnicky = () => {
   const questions = [
     {
       questionText: 'What is the capital of France?',
@@ -50,24 +50,48 @@ export const Notes = () => {
 
   return (
     <>
-      <main>
       <div className="main-page">
-          <h1 className="main-page__nadpis">Poznej noty</h1>
-          <Navigace />
-          <h3>Ovčáci čtveráci</h3>
+        <h1 className="main-page__nadpis">Poznej písničky</h1>
+        <Navigace />
 
+        <div className="pisnicka">
+          <h3 className="pisnicka__nadpis">Ovčáci čtveráci</h3>
           <div className="ton">
             {ovcaciCtveraci.map((objektVpoli) => {
               return <Nota nazev={objektVpoli.id} />;
             })}
           </div>
-
-          <Klavesy zahrano={zahranaKlavesa} />
-
-          <div className="music-symbols"></div>
-          <Kviz otazky={questions} />
         </div>
-      </main>
+
+        <div className="pisnicka">
+          <h3 className="pisnicka__nadpis">Kočka leze dírou</h3>
+          <div className="pisnicka__noty">
+            '&=2!B=C=D=E=!=V==V!=W=W=!=f=!=W=W=!=f=!=Å=Å!=T=T=!=S=S=!=f=!=Å=Å!=T=T=!=S=S=!=b=!.
+          </div>
+        </div>
+
+        <div className="pisnicka">
+          <h3 className="pisnicka__nadpis">Ach synku, synku</h3>
+          <div className="pisnicka__noty">
+            '&=3R=R=R!=B=C=d!=E=D=c!=b=:!=T=T=T!=D=E=f!=G=F=U=T!=S=S=S!=C=D=e!=F=E=T=S!=R=R=R!=B=C=d!=E=D=c!=b=:!=.
+          </div>
+        </div>
+
+        <div className="pisnicka">
+          <h3 className="pisnicka__nadpis">Óda na radost - Mozart</h3>
+          <div className="pisnicka__noty">
+            '&=0T=T=U=V!=V=U=T=S!=R=R=S=T!=T´=C=S=!=T=T=U=V!=V=U=T=S!=R=R=S=T!=S³=B=R=.
+          </div>
+        </div>
+
+        <Klavesy zahrano={zahranaKlavesa} />
+        <img
+          className="keyboard"
+          src="../../assets/img/keyboard.png"
+          alt="klávesy"
+        />
+        <Kviz otazky={questions} />
+      </div>
     </>
   );
 };

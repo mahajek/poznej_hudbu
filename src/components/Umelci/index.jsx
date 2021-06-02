@@ -12,7 +12,7 @@ import { Artists } from '../Artists';
 // };
 
 export const Umelci = () => {
-  
+
   const classic = [
     {
       label: 'Wolfgang Amadeus Mozart',

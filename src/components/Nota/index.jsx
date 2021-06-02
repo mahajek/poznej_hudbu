@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './style.css';
 
 // ovčáci čtveráci '&=0=R=T=V=:!=R=T=V=:!=D=D=C=U=S=9!=D=D=C=U=S=9!=T=S=R=:.
+// oda na radost '&=0T=T=U=V!=V=U=T=S!=R=R=S=T!=T´=C=S=!=T=T=U=V!=V=U=T=S!=R=R=S=T!=S³=B=R=.
+
+
 export const Nota = (props) => {
   const [zahraj, setZahraj] = useState('');
 

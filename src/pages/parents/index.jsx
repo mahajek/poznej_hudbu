@@ -8,8 +8,8 @@ export const Parents = () => {
   return (
     <>
       <main>
-        <div className="main-page">
-          <h1>Poznej hudbu s rodiči</h1>
+      <div className="main-page">
+          <h1 className="main-page__nadpis">Poznej hudbu s rodiči</h1>
           <Navigace />
           <h2>Tipy pro rodiče s dětmi doma </h2>
           <p>
