@@ -4,7 +4,7 @@ import './style.css';
 
 import { Klavesy } from '../../components/Klavesy/index';
 import { Kviz } from '../../components/Kviz/index';
-import { ovcaciCtveraci } from './ovcaciCtveraci.js';
+/* import { ovcaciCtveraci } from './ovcaciCtveraci.js'; */
 import { Nota } from '../../components/Nota/index';
 import { Navigace } from '../../components/Navigace';
 
@@ -54,13 +54,6 @@ export const Notes = () => {
         <div className="main-page">
           <h1 className="main-page__nadpis">Poznej noty</h1>
           <Navigace />
-          <h3>Ovčáci čtveráci</h3>
-
-          <div className="ton">
-            {ovcaciCtveraci.map((objektVpoli) => {
-              return <Nota nazev={objektVpoli.id} />;
-            })}
-          </div>
 
           <Klavesy zahrano={zahranaKlavesa} />
           <div className="prehled-not">

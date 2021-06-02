@@ -213,40 +213,47 @@ export const Klavesy = (props) => {
       <div className="klavesy">
         <button className={changeC1()} onClick={playC1}>
           <span className="bila__letter">s</span>
+          <span className="ton__letter">c1</span>
         </button>
 
         <button className={changeD()} onClick={playD}>
           <span className="bila__letter">d</span>
+          <span className="ton__letter">d</span>
         </button>
 
         <button className={changeE()} onClick={playE}>
           <span className="bila__letter">f</span>
+          <span className="ton__letter">e</span>
         </button>
 
         <button className={changeF()} onClick={playF}>
           <span className="bila__letter">g</span>
+          <span className="ton__letter">f</span>
         </button>
 
         <button className={changeG()} onClick={playG}>
           <span className="bila__letter">h</span>
+          <span className="ton__letter">g</span>
         </button>
 
         <button className={changeA()} onClick={playA}>
           <span className="bila__letter">j</span>
+          <span className="ton__letter">a</span>
         </button>
 
         <button className={changeH()} onClick={playH}>
           <span className="bila__letter">k</span>
+          <span className="ton__letter">h</span>
         </button>
 
         <button className={changeC2()} onClick={playC2}>
           <span className="bila__letter">l</span>
+          <span className="ton__letter">c2</span>
         </button>
 
         <button className={changeCis()} onClick={playCis}>
           <span className="cerna__letter">e</span>
         </button>
-
         <button className={changeDis()} onClick={playDis}>
           <span className="cerna__letter">r</span>
         </button>

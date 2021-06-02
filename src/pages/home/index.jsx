@@ -40,9 +40,6 @@ export const Home = () => {
             <div className="composers">
               <Link to="/poznej-umelce">Poznej umělce</Link>
             </div>
-            <div className="parents">
-              <Link to="/poznej-srodici">Poznej hudbu s rodiči</Link>
-            </div>
           </section>
         </div>
       </main>

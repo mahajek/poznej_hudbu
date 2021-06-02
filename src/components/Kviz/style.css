@@ -87,7 +87,7 @@ barva zelená #0f7260 */
   align-items: center;
   border: 2px solid #ffbb00;
   cursor: pointer;
-  margin: 2px;
+  margin: 6px;
 }
 
 .correct {

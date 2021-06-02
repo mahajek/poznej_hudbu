@@ -41,14 +41,6 @@ export const Navigace = (props) => {
       >
         Poznej umělce
       </NavLink>
-
-      <NavLink
-        to="/poznej-srodici"
-        className="navigace__item navigace__item--parents"
-        activeClassName="is-active"
-      >
-        Poznej hudbu s rodiči
-      </NavLink>
     </div>
   );
 };
