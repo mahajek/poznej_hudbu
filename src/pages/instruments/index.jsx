@@ -9,12 +9,12 @@ import { Navigace } from '../../components/Navigace';
 export const Instruments = (props) => {
   const questions = [
     {
-      questionText: 'What is the capital of France?',
+      questionText: 'Jaký nástroj je na obrázku?',
       answerOptions: [
-        { answerText: 'New York', isCorrect: false },
-        { answerText: 'London', isCorrect: false },
-        { answerText: 'Paris', isCorrect: true },
-        { answerText: 'Dublin', isCorrect: false },
+        { answerText: 'Akustická kytara', isCorrect: false },
+        { answerText: 'Flétna', isCorrect: false },
+        { answerText: 'Harfa', isCorrect: false },
+        { answerText: 'Saxofon', isCorrect: true },
       ],
     },
     {

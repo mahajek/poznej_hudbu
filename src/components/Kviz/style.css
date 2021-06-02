@@ -4,28 +4,26 @@ barva modrá = #082b42
 barva zelená #0f7260 */
 
 .kviz {
-  background-color: #f55d50;
-  width: 400px;
-  min-height: 200px;
+  background-color: white;
+  width: 20rem;
+  min-height: 12.5rem;
   height: min-content;
-  border-radius: 15px;
-  padding: 20px;
+  border-radius: 0.9rem;
+  padding: 1.25rem;
   box-shadow: 10px 10px 42px 0px #082b42b2;
   /* justify-content: space-evenly; */
   flex-wrap: wrap;
-  margin-top: 5rem;
-  margin: 3rem auto;
   font-family: 'Open Sans Condensed';
   border-radius: 10%;
   display: flex;
   position: absolute;
-  right: 3rem;
-  top: 16rem;
+  right: 5rem;
+  top: 12rem;
 }
 
 .score-section {
   display: flex;
-  font-size: 24px;
+  font-size: 1.5rem;
   align-items: center;
   color: #082b42;
 }
@@ -40,18 +38,18 @@ barva zelená #0f7260 */
 }
 
 .question-count {
-  margin-bottom: 10px;
+  margin-bottom: 0.62;
   font-weight: bold;
 }
 
 .question-count span {
-  font-size: 30px;
+  font-size: 1.9rem;
 }
 
 .otazka {
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.62rem;
 }
 
 .question-text {
@@ -60,11 +58,11 @@ barva zelená #0f7260 */
 
 .timer-text {
   background: rgb(230, 153, 12);
-  padding: 15px;
-  margin-top: 20px;
-  margin-right: 20px;
+  padding: 0.94rem;
+  margin-top: 1.25rem;
+  margin-right: 1.25rem;
   border: 5px solid rgb(255, 189, 67);
-  border-radius: 15px;
+  border-radius: 0.94rem;
   text-align: center;
 }
 
@@ -78,11 +76,11 @@ barva zelená #0f7260 */
 
 .tlacitko-kviz {
   width: 100%;
-  font-size: 16px;
+  font-size: 1.25rem;
   font-family: 'Open Sans Condensed';
   color: #ffffff;
   background-color: #082b42;
-  border-radius: 15px;
+  border-radius: 0.94rem;
   display: flex;
   padding: 5px;
   justify-content: center;

@@ -1,14 +1,9 @@
 .nastroje {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-right: 0;
   margin-left: 0;
-}
-
-h4 {
-  display: flex;
-  justify-content: center;
   max-width: 50rem;
 }
 
@@ -16,8 +11,7 @@ h4 {
   width: 13rem;
   height: 13rem;
   background-color: white;
-  margin-top: 3rem;
-  margin-left: 2rem;
+  margin: 1rem;
   border-radius: 50%;
   border-style: solid;
   border-color: white;
