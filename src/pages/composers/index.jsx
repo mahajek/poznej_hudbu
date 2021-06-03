@@ -50,14 +50,12 @@ export const Composers = () => {
 
   return (
     <>
-      <main>
-        <div className="main-page">
-          <h1>Poznej umělce</h1>
-          <Navigace />
-          <Umelci />
-          <Kviz otazky={questions} />
-        </div>
-      </main>
+      <div className="main-page">
+        <h1 className="main-page__nadpis">Poznej umělce</h1>
+        <Navigace />
+        <Umelci />
+        <Kviz otazky={questions} />
+      </div>
     </>
   );
 };

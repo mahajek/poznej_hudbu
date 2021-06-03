@@ -9,7 +9,6 @@ import { Notes } from './pages/Notes/index';
 import { PoznejPisnicky } from './pages/PoznejPisnicky/index';
 import { Instruments } from './pages/Instruments/index';
 import { Composers } from './pages/Composers/index';
-import { Parents } from './pages/Parents/index';
 
 const App = () => (
   <>
@@ -28,9 +27,6 @@ const App = () => (
             </Route>
             <Route path="/poznej-umelce">
               <Composers />
-            </Route>
-            <Route path="/poznej-srodici">
-              <Parents />
             </Route>
             <Route path="/">
               <Home />
