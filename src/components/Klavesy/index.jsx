@@ -212,62 +212,67 @@ export const Klavesy = (props) => {
     <div className="klavesy__container">
       <div className="klavesy">
         <button className={changeC1()} onClick={playC1}>
-          <span className="bila__letter">s</span>
+          <span className="bila__letter">´(s)</span>
           <span className="ton__letter">c1</span>
         </button>
 
         <button className={changeD()} onClick={playD}>
-          <span className="bila__letter">d</span>
+          <span className="bila__letter">(d)</span>
           <span className="ton__letter">d</span>
         </button>
 
         <button className={changeE()} onClick={playE}>
-          <span className="bila__letter">f</span>
+          <span className="bila__letter">(f)</span>
           <span className="ton__letter">e</span>
         </button>
 
         <button className={changeF()} onClick={playF}>
-          <span className="bila__letter">g</span>
+          <span className="bila__letter">(g)</span>
           <span className="ton__letter">f</span>
         </button>
 
         <button className={changeG()} onClick={playG}>
-          <span className="bila__letter">h</span>
+          <span className="bila__letter">(h)</span>
           <span className="ton__letter">g</span>
         </button>
 
         <button className={changeA()} onClick={playA}>
-          <span className="bila__letter">j</span>
+          <span className="bila__letter">(j)</span>
           <span className="ton__letter">a</span>
         </button>
 
         <button className={changeH()} onClick={playH}>
-          <span className="bila__letter">k</span>
+          <span className="bila__letter">(k)</span>
           <span className="ton__letter">h</span>
         </button>
 
         <button className={changeC2()} onClick={playC2}>
-          <span className="bila__letter">l</span>
+          <span className="bila__letter">(l)</span>
           <span className="ton__letter">c2</span>
         </button>
 
         <button className={changeCis()} onClick={playCis}>
-          <span className="cerna__letter">e</span>
+          <span className="cerna__letter">(e)</span>
+          <span className="toncerna__letter">cis</span>
         </button>
         <button className={changeDis()} onClick={playDis}>
-          <span className="cerna__letter">r</span>
+          <span className="cerna__letter">(r)</span>
+          <span className="toncerna__letter">dis</span>
         </button>
 
         <button className={changeFis()} onClick={playFis}>
-          <span className="cerna__letter">y</span>
+          <span className="cerna__letter">(y)</span>
+          <span className="toncerna__letter">fis</span>
         </button>
 
         <button className={changeGis()} onClick={playGis}>
-          <span className="cerna__letter">u</span>
+          <span className="cerna__letter">(u)</span>
+          <span className="toncerna__letter">gis</span>
         </button>
 
         <button className={changeAis()} onClick={playAis}>
-          <span className="cerna__letter">i</span>
+          <span className="cerna__letter">(i)</span>
+          <span className="toncerna__letter">ais</span>
         </button>
       </div>
     </div>

@@ -23,7 +23,7 @@ export const Kviz = (props) => {
     <div className="kviz">
       {showScore ? (
         <div className="score-section">
-          Máš {score} bodů z {props.otazky.length}
+          Super! Máš {score} bodů z {props.otazky.length}
         </div>
       ) : (
         <>

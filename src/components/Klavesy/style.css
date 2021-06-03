@@ -34,18 +34,20 @@ barva zelená #0f7260 */
   text-align: center;
   width: 100%;
   left: 0;
-  opacity: 0.3;
   font-weight: bold;
   font-size: 0.9rem;
-  color: #082b42;
 }
 
 .bila__letter {
-  top: -2rem;
+  top: 8.5rem;
+  color: #082b42;
+  opacity: 0.3;
 }
 
 .cerna__letter {
-  top: -2rem;
+  top: 3.5rem;
+  color: white;
+  opacity: 0.2;
 }
 
 .cerna {
@@ -94,6 +96,16 @@ barva zelená #0f7260 */
   font-weight: bold;
   font-size: 2rem;
   margin-top: 9rem;
+  display: flex;
+  justify-content: center;
+}
+
+.toncerna__letter {
+  font-family: 'Open Sans Condensed';
+  color: #ffbb00;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 4.5rem;
   display: flex;
   justify-content: center;
 }
