@@ -29,14 +29,21 @@ main {
   font-family: 'Open Sans Condensed';
   font-size: 1.3rem;
   color: #082b42;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
 }
 
 .home-page__text {
   font-family: 'Open Sans Condensed';
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  row-gap: 1.2rem;
   color: #082b42;
   text-align: justify;
-  width: 35rem;
+  width: 45rem;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
 }
 
 section {
