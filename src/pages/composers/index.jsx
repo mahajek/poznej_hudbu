@@ -9,11 +9,11 @@ import { Umelci } from '../../components/Umelci';
 export const Composers = () => {
   const questions = [
     {
-      questionText: 'Kdo je autorem naší státní hymny "Kde domov můj?',
+      questionText: 'Kdo je autorem skladby "Vltava?',
       answerOptions: [
-        { answerText: 'Bedřich Smetana', isCorrect: false },
+        { answerText: 'Bedřich Smetana', isCorrect: true },
         { answerText: 'Ludwig van Beethoven', isCorrect: false },
-        { answerText: 'František Škroup', isCorrect: true },
+        { answerText: 'František Škroup', isCorrect: false },
         { answerText: 'Antonín Dvořák', isCorrect: false },
       ],
     },
@@ -23,27 +23,27 @@ export const Composers = () => {
         'https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg',
       answerOptions: [
         { answerText: 'Bedřich Smetana', isCorrect: false },
-        { answerText: 'Ludwig van Beethoven', isCorrect: false },
-        { answerText: 'František Škroup', isCorrect: true },
+        { answerText: 'Ludwig van Beethoven', isCorrect: true },
+        { answerText: 'František Škroup', isCorrect: false },
         { answerText: 'Antonín Dvořák', isCorrect: false },
       ],
     },
     {
-      questionText: 'The iPhone was created by which company?',
+      questionText: 'Který umělec byl známý svou "Moonwalk"?',
       answerOptions: [
-        { answerText: 'Apple', isCorrect: true },
-        { answerText: 'Intel', isCorrect: false },
-        { answerText: 'Amazon', isCorrect: false },
-        { answerText: 'Microsoft', isCorrect: false },
+        { answerText: 'Michael Jackson', isCorrect: true },
+        { answerText: 'David Bowie', isCorrect: false },
+        { answerText: 'Prince', isCorrect: false },
+        { answerText: 'Phil Collins', isCorrect: false },
       ],
     },
     {
-      questionText: 'How many Harry Potter books are there?',
+      questionText: 'Kde se narodil Wolfgang Amadeus Mozart?',
       answerOptions: [
-        { answerText: '1', isCorrect: false },
-        { answerText: '4', isCorrect: false },
-        { answerText: '6', isCorrect: false },
-        { answerText: '7', isCorrect: true },
+        { answerText: 'Linz', isCorrect: false },
+        { answerText: 'Innsbruck', isCorrect: false },
+        { answerText: 'Vídeň', isCorrect: false },
+        { answerText: 'Salzburg', isCorrect: true },
       ],
     },
   ];

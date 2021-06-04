@@ -11,34 +11,44 @@ import { Navigace } from '../../components/Navigace';
 export const PoznejPisnicky = () => {
   const questions = [
     {
-      questionText: 'What is the capital of France?',
+      questionText: 'Na kolik dob se počítají "Ovčáci, čtveráci"?',
       answerOptions: [
-        { answerText: 'New York', isCorrect: false },
-        { answerText: 'London', isCorrect: false },
-        { answerText: 'Paris', isCorrect: true },
-        { answerText: 'Dublin', isCorrect: false },
+        { answerText: 'Dvě doby', isCorrect: false },
+        { answerText: 'Tři doby', isCorrect: false },
+        { answerText: 'Čtyři doby', isCorrect: true },
+        { answerText: 'Šest dob', isCorrect: false },
       ],
     },
     {
-      questionText: 'Who is CEO of Tesla?',
+      questionText: 'Kudy leze pes v písničce "Kočka leze dírou"?',
       answerOptions: [
-        { answerText: 'Jeff Bezos', isCorrect: false },
-        { answerText: 'Elon Musk', isCorrect: true },
-        { answerText: 'Bill Gates', isCorrect: false },
-        { answerText: 'Tony Stark', isCorrect: false },
+        { answerText: 'Dveřmi', isCorrect: false },
+        { answerText: 'Oknem', isCorrect: true },
+        { answerText: 'Dírou', isCorrect: false },
+        { answerText: 'Plotem', isCorrect: false },
       ],
     },
     {
-      questionText: 'The iPhone was created by which company?',
+      questionText:
+        'V jaké pohádce se objevuje písnička "Není nutno" od Jaroslava Uhlíře a Zdeňka Svěráka?',
       answerOptions: [
-        { answerText: 'Apple', isCorrect: true },
-        { answerText: 'Intel', isCorrect: false },
-        { answerText: 'Amazon', isCorrect: false },
-        { answerText: 'Microsoft', isCorrect: false },
+        { answerText: 'Tři veteráni', isCorrect: true },
+        { answerText: 'Šíleně smutná princezna', isCorrect: false },
+        { answerText: 'Sůl nad zlato', isCorrect: false },
+        { answerText: 'Pyšná princezna', isCorrect: false },
       ],
     },
     {
-      questionText: 'How many Harry Potter books are there?',
+      questionText: '"Ovčáci, čtveráci, vy jste...," doplň slova písničky.',
+      answerOptions: [
+        {
+          answerText: '"...naši vičku, i tu čočovičku, vypásli."',
+          isCorrect: true,
+        },
+        { answerText: '"...a já sám, vždycky sám."', isCorrect: false },
+        { answerText: '"...ach synku, synku, doma-li jsi."', isCorrect: false },
+        { answerText: '"...pes oknem, pes oknem.', isCorrect: false },
+      ],
     },
   ];
 

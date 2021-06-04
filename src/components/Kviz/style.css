@@ -2,16 +2,17 @@
 barva červená = #f55d50
 barva modrá = #082b42
 barva zelená #0f7260 */
+
 .kviz__nadpis {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   margin-bottom: 1rem;
   text-align: center;
   font-size: 2rem;
   color: #f55d50;
   letter-spacing: 1.2rem;
-  font-weight:bolder;
-  text-transform:uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .kviz {
   background-color: white;
@@ -110,7 +111,7 @@ barva zelená #0f7260 */
 }
 
 button:hover {
-  background-color: #555e7d;
+  background-color: #f55e50;
 }
 
 button:focus {

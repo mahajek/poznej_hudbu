@@ -40,7 +40,6 @@ export const Kviz = (props) => {
               src={props.otazky[currentQuestion].obrazek}
             />
           </div>
-
           <div className="answer-section">
             {props.otazky[currentQuestion].answerOptions.map((answerOption) => (
               <button
