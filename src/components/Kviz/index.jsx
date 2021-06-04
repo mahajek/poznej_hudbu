@@ -29,6 +29,7 @@ export const Kviz = (props) => {
         <>
           <div className="question-section">
             <div className="question-count">
+              <p className="kviz__nadpis">Kvíz</p>
               <span>Otázka {currentQuestion + 1}</span>/{props.otazky.length}
             </div>
             <div className="otazka">

@@ -8,7 +8,10 @@ barva zelená #0f7260 */
   position: absolute;
   right: 0;
   top: 0;
-  /* position: fixed; */
+  /* position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; */
 }
 
 .navigace__item:hover,
