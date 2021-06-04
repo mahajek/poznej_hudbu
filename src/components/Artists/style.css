@@ -25,13 +25,17 @@ barva zelená #0f7260 */
   /* flex: 0 0 2rem; */
   border: 0.2rem solid #082b42;
   border-radius: 8%;
-  margin: 0.7rem;
+  margin: 1.5rem 0.7rem;
 }
 
 .umelci__paragraph {
   font-weight: bold;
   font-size: 2rem;
   display: block;
+  text-align: center;
+  margin: 4rem auto 1rem auto;
+  color: #082b42;
+  font-weight: 800;
 }
 
 .umelci__label {
@@ -69,7 +73,7 @@ barva zelená #0f7260 */
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  color:red;
+  color: red;
   display: flex;
   justify-content: center;
   opacity: 0;
@@ -89,7 +93,8 @@ barva zelená #0f7260 */
 }
 
 .image__icon {
-  color: red;
+  /* background-color: red; */
+  border-radius: 50%;
   width: 4rem;
   height: 4rem;
 }

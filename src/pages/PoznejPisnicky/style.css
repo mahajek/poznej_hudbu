@@ -3,23 +3,39 @@ barva červená = #f55d50
 barva modrá = #082b42
 barva zelená #0f7260 */
 
+.pisnicky {
+  max-width: 50rem;
+  margin: 2.5rem 3rem;
+  margin-bottom: -7rem;
+  border-radius: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 1rem #082b42;
+}
+.klavesy__container--size {
+  font-size: 0.7rem;
+}
 .pisnicka__noty {
   font-family: 'Noty';
-  font-size: 3rem;
-  line-height: 1.3;
+  font-size: 1.85rem;
+  line-height: 1.9;
   /* display: inline-block; */
   color: black;
   display: flex;
   flex-wrap: nowrap;
-  margin: 2rem auto;
+  margin: 1rem auto;
+  margin-top: 0;
 }
 
 .pisnicka__nadpis {
   margin: 0;
   text-align: start;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   width: auto;
+  text-align: justify;
+  color: #f55d50;
 }
 
 /* .main-page h1 {
@@ -27,8 +43,10 @@ barva zelená #0f7260 */
   position: fixed;
 } */
 
-.keyboard {
-  width: 12rem;
-  /* border: 3px solid #f55d50; */
-  margin: 2em auto;
+.ton__letter--size {
+  font-size: 1.5rem;
+}
+
+.toncerna__letter--size {
+  font-size: 1.3rem;
 }

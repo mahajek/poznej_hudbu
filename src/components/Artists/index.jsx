@@ -13,7 +13,7 @@ export const Artists = (props) => {
           <a href={odkaz}>
             <img
               className="image__icon"
-              src="../../assets/img/iconmonstr-youtube-6-240.png"
+              src="../../assets/img/iconmonstr-youtube-6(2).png"
               alt="youtube icon"
             />
           </a>
