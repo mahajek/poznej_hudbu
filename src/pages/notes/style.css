@@ -20,6 +20,6 @@ p {
 .prehled-not img {
   display: flex;
   justify-self: center;
-  margin-top: 5rem;
+  margin-top: 4rem;
   margin-left: 5rem;
 }
