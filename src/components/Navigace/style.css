@@ -5,9 +5,8 @@ barva zelená #0f7260 */
 
 .navigace {
   display: flex;
-  position: absolute;
-  right: 0;
-  top: 0;
+  justify-content: space-evenly;
+  margin-right: 3rem;
   /* position: fixed;
   margin-left: auto;
   margin-right: auto;
@@ -21,12 +20,12 @@ barva zelená #0f7260 */
 
 .navigace__item {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  flex: 0 0 7rem;
+  /* flex: 0 0 7rem; */
   width: 7rem;
   height: 7rem;
-  margin: 0.4rem;
+  margin: 0.25rem;
   border-radius: 50%;
   border: solid;
   border-color: #082b42;
@@ -50,6 +49,6 @@ barva zelená #0f7260 */
   background-image: url(../../assets/img/poznej_hudbunazivo.png);
 }
 
-.navigace__item.is-active {
-  /* display: none; */
-}
+/* .navigace__item.is-active {
+  display: none;
+} */

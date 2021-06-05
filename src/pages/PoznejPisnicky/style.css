@@ -3,10 +3,15 @@ barva červená = #f55d50
 barva modrá = #082b42
 barva zelená #0f7260 */
 
+.main-page__songs {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+}
+
 .pisnicky {
   max-width: 50rem;
-  margin: 2.5rem 3rem;
-  margin-bottom: -7rem;
+  margin: 3rem 3rem -5rem 3rem;
   border-radius: 1%;
   display: flex;
   flex-wrap: wrap;

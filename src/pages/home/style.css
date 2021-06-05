@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  max-width: 70rem;
+  max-width: 100rem;
 }
 
 .home-page {
@@ -123,6 +123,5 @@ a:focus {
   font-weight: lighter;
   text-transform: uppercase;
   color: #ffbb00;
-  margin: 0;
   margin-left: 3rem;
 }

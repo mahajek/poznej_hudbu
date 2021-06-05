@@ -9,7 +9,7 @@ export const Artists = (props) => {
       <div className="image">
         <img className="umelci__picture" src={picture} />
         <div className="image__overlay">
-          <a href={odkaz}>
+          <a href={odkaz} target="_blank">
             <img
               className="image__icon"
               src="../../assets/img/iconmonstr-youtube-6(2).png"

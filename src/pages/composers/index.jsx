@@ -9,7 +9,7 @@ import { Umelci } from '../../components/Umelci';
 export const Composers = () => {
   const questions = [
     {
-      questionText: 'Kdo je autorem skladby "Vltava?',
+      questionText: 'Kdo je autorem skladby "Vltava?"',
       answerOptions: [
         { answerText: 'Bedřich Smetana', isCorrect: true },
         { answerText: 'Ludwig van Beethoven', isCorrect: false },
@@ -51,9 +51,11 @@ export const Composers = () => {
   return (
     <>
       <div className="main-page">
+      <div className="main-page__navigace">
         <h1 className="main-page__nadpis">Poznej umělce</h1>
         <Navigace />
-        <div className="main-page__position--umelci">
+        </div>
+        <div className="main-page__composers">
           <Umelci />
           <Kviz otazky={questions} />
         </div>

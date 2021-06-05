@@ -1,3 +1,14 @@
+
+.main-page__notes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kviz--notes {
+  margin: 6rem auto;
+}
+
+
 .ton {
   display: flex;
 }

@@ -3,14 +3,13 @@ barva červená = #f55d50
 barva modrá = #082b42
 barva zelená #0f7260 */
 
-.main-page__position--umelci {
+.main-page__composers {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: flex-start; */
 }
 
-.kviz--umelci {
-  margin: 6rem auto;
+.kviz--composers {
+  margin: 5rem auto;
 }
 
 /* stylování komponenty Umelci */
@@ -18,6 +17,8 @@ barva zelená #0f7260 */
 .umelci {
   max-width: 56rem;
   height: auto;
+  margin: auto;
+  margin-top: 2rem;
 }
 
 .umelci__classic {
@@ -34,9 +35,8 @@ barva zelená #0f7260 */
 .umelci__item {
   width: 12rem;
   flex: 0 0 2rem;
-  /* border: 1px solid #082b42; */
   border-radius: 8%;
-  margin: 1rem 0.7rem;
+  margin: 1.5rem 0.7rem;
 }
 
 .umelci__nadpis {
@@ -51,7 +51,7 @@ barva zelená #0f7260 */
 
 .umelci__label {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.16rem;
   font-weight: bold;
   margin: 0.4rem;
   color: #082b42;

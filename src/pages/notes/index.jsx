@@ -52,21 +52,28 @@ export const Notes = () => {
     <>
       <main>
         <div className="main-page">
+        <div className="main-page__navigace">
           <h1 className="main-page__nadpis">Poznej noty</h1>
           <Navigace />
-          <Klavesy />
-          <p>
-            My jsme noty, těší nás. Vypadáme různě a podle toho, jestli máme
-            plné bříško nebo ne, se ozýváme. S prázdným bříškem zpíváme dlouho,
-            s plným je náš zpěv o něco kratší. Řadíme se různě za sebou a tak
-            vznikají písničky. Mezi sebou máme i své kamarádky - pomlky. Když se
-            mezi nás zařadí, je chvíli ticho. Ale to nám nevadí, my pak zpíváme
-            dál.{' '}
-          </p>
-          <div className="prehled-not">
-            <img src="../../assets/img/prehled_not.png" alt="Přehled not" />
           </div>
-          <Kviz otazky={questions} />
+          <div className="main-page__notes">
+            <div>
+              <Klavesy />
+              <p>
+                My jsme noty, těší nás. Vypadáme různě a podle toho, jestli máme
+                plné bříško nebo ne, se ozýváme. S prázdným bříškem zpíváme
+                dlouho, s plným je náš zpěv o něco kratší. Řadíme se různě za
+                sebou a tak vznikají písničky. Mezi sebou máme i své kamarádky -
+                pomlky. Když se mezi nás zařadí, je chvíli ticho. Ale to nám
+                nevadí, my pak zpíváme dál.{' '}
+              </p>
+              <div className="prehled-not">
+                <img src="../../assets/img/prehled_not.png" alt="Přehled not" />
+              </div>
+              </div>
+              <Kviz otazky={questions} />
+            
+          </div>
         </div>
       </main>
     </>

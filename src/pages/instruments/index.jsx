@@ -51,10 +51,14 @@ export const Instruments = () => {
     <>
       <main>
         <div className="main-page">
-          <h1 className="main-page__nadpis">Poznej nástroje</h1>
-          <Navigace />
-          <Kviz otazky={questions} />
-          <Nastroje />
+          <div className="main-page__navigace">
+            <h1 className="main-page__nadpis">Poznej nástroje</h1>
+            <Navigace />
+          </div>
+          <div className="main-page__instruments">
+            <Nastroje />
+            <Kviz otazky={questions} />
+          </div>
         </div>
       </main>
     </>

@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import { Artists } from '../Artists';
 
 export const Umelci = () => {
@@ -80,10 +79,10 @@ export const Umelci = () => {
       odkaz: 'https://www.youtube.com/watch?v=HgzGwKwLmgM',
     },
     {
-      label: 'Pink Floyd',
-      picture: '../../assets/img/pinkfloyd.png',
+      label: 'Iveta Bartošová',
+      picture: '../../assets/img/bartosova.jpg',
       text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dignissimos quis voluptas eligendi excepturi odioLorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dignissimos quis voluptas eligendi excepturi odio.',
-      odkaz: 'https://www.youtube.com/watch?v=jv2WJMVPQi8',
+      odkaz: 'https://www.youtube.com/watch?v=FB7_c0MnbX8',
     },
     {
       label: 'Karel Gott',
