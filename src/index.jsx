@@ -4,11 +4,11 @@ import './style.css';
 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import { Home } from './pages/Home';
-import { Notes } from './pages/Notes';
+import { Home } from './pages/home';
+import { Notes } from './pages/notes';
 import { PoznejPisnicky } from './pages/PoznejPisnicky';
-import { Instruments } from './pages/Instruments';
-import { Composers } from './pages/Composers';
+import { Instruments } from './pages/instruments';
+import { Composers } from './pages/composers';
 
 const App = () => (
   <>
