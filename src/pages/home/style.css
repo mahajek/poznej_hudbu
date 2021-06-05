@@ -129,7 +129,10 @@ a:focus {
 @media only screen and (max-width: 520px) {
   section {
     font-size: 2rem;
-    margin: 0;
+    margin-left: -3rem;
+   
+    display: flex;
+    justify-content: space-around;
   }
   .home-page__h2 {
     font-size: 2.5rem;
@@ -144,12 +147,13 @@ a:focus {
   .instruments,
   .composers,
   .songs {
-    width: 12rem;
-    height: 12rem;
-    margin: 1 0 auto;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
   }
 
   a {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
