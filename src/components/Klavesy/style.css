@@ -3,19 +3,20 @@ barva červená = #f55d50
 barva modrá = #082b42
 barva zelená #0f7260 */
 
+.klavesy__container {
+  font-size: 0.8rem;
+  display: flex;
+  margin-left: 5rem;
+}
+
 .klavesy {
   /* width: 22em; */
-  margin-left: 14rem;
+  /* margin-left: 14rem; */
   margin-top: 5rem;
   display: flex;
   position: relative;
   box-shadow: 0.1px 0.8px 1px 1px rgba(0, 0, 0, 0.897);
   font-size: inherit;
-}
-
-.klavesy__container {
-  font-size: 0.8rem;
-  display: flex;
 }
 
 .bila {

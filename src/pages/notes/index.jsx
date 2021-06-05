@@ -58,8 +58,8 @@ export const Notes = () => {
           </div>
           <div className="main-page__notes">
             <div>
-              <Klavesy />
-              <p>
+              <Klavesy className="klavesy__notes"/>
+              <p className="notes__text">
                 My jsme noty, těší nás. Vypadáme různě a podle toho, jestli máme
                 plné bříško nebo ne, se ozýváme. S prázdným bříškem zpíváme
                 dlouho, s plným je náš zpěv o něco kratší. Řadíme se různě za

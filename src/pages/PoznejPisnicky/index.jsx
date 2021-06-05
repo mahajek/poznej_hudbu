@@ -66,7 +66,7 @@ export const PoznejPisnicky = () => {
 
         <div className="main-page__songs">
           <div>
-            <div className="pisnicky">
+            <div className="pisnicky" activeClassName="is-active">
               <div className="pisnicka">
                 <h3 className="pisnicka__nadpis">Ovčáci čtveráci</h3>
                 <div className="pisnicka__noty">

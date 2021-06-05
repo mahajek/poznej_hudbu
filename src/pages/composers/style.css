@@ -191,4 +191,32 @@ y .image__overlay:hover > * {
   .kviz--composers {
     margin: 2rem auto;
   }
+
+  .klavesy {
+    font-size: 0.8rem;
+    margin-left: -3rem;
+  }
+}
+
+/* stylování  pro tablet */
+@media (min-width: 521px) and (max-width: 1120px) {
+  .main-page__nadpis {
+    font-size: 4rem;
+    margin-left: 3rem;
+  }
+
+  .navigace__item {
+    width: 7.5rem;
+    height: 7.5rem;
+    font-size: 1.2rem;
+  }
+
+  .navigace {
+    margin-left: 2.5rem;
+  }
+
+  .klavesy {
+    font-size: 1rem;
+    margin-left: -2rem;
+  }
 }
