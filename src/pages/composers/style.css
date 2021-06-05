@@ -24,12 +24,13 @@ barva zelená #0f7260 */
 .umelci__classic {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .umelci__modern {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .umelci__item {
@@ -40,7 +41,7 @@ barva zelená #0f7260 */
 }
 
 .umelci__nadpis {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 900;
   letter-spacing: 0.3rem;
   display: block;
@@ -106,4 +107,88 @@ y .image__overlay:hover > * {
 .image__icon {
   width: 4rem;
   height: 4rem;
+}
+
+/* stylování pro mobil */
+
+@media only screen and (max-width: 520px) {
+  .main-page__nadpis {
+    font-size: 4rem;
+    margin-left: 3.5rem;
+    margin-bottom: 0;
+  }
+
+  .navigace {
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 1 0 1rem;
+  }
+
+  .umelci {
+    margin: 0;
+  }
+
+  .navigace__item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10rem;
+    height: 10rem;
+    font-size: 2rem;
+  }
+
+  .umelci__classic {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .umelci__modern {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navigace__item.is-active {
+    display: none;
+  }
+
+  .umelci__item {
+    width: 20rem;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-bottom: 0.5rem;
+  }
+
+  .umelci__picture {
+    width: 20.3rem;
+    height: auto;
+    object-fit: cover;
+    padding: 0;
+    padding-right: 0.41rem;
+  }
+
+  .umelci__nadpis {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  .umelci__label {
+    font-size: 2rem;
+  }
+  .umelci__text {
+    margin: 0.2rem;
+    font-size: 1.6rem;
+  }
+
+  .image {
+    position: relative;
+  }
+
+  .umelci__picture {
+    display: block;
+  }
+
+  .kviz--composers {
+    margin: 2rem auto;
+  }
 }

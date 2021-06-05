@@ -11,7 +11,7 @@ barva zelená #0f7260 */
   font-size: 3rem;
   color: #f55d50;
   letter-spacing: 0.6rem;
-  font-weight:bold;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .kviz {
@@ -26,9 +26,6 @@ barva zelená #0f7260 */
   font-family: 'Open Sans Condensed';
   border-radius: 10%;
   /* display: flex; */
-  /* position: absolute;
-  right: 5rem;
-  top: 12rem; */
 }
 
 .score-section {
@@ -124,4 +121,35 @@ button svg {
 .obrazek {
   max-height: 10rem;
   border: 1px solid #ffbb00;
+}
+
+@media only screen and (max-width: 520px) {
+  .kviz__nadpis {
+    font-size: 8rem;
+  }
+  .kviz {
+    background-color: white;
+    width: 29rem;
+    margin: 0.5rem auto;
+  }
+
+  .score-section {
+    font-size: 3rem;
+  }
+
+  .question-count span {
+    font-size: 3rem;
+  }
+
+  .otazka {
+    font-size: 3rem;
+  }
+
+  .tlacitko-kviz {
+    font-size: 3rem;
+  }
+  .obrazek {
+    max-height: 20rem;
+    border: 1px solid #ffbb00;
+  }
 }

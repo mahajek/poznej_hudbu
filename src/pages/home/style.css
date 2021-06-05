@@ -123,5 +123,5 @@ a:focus {
   font-weight: lighter;
   text-transform: uppercase;
   color: #ffbb00;
-  margin-left: 3rem;
+  margin: 2rem 0 1rem 3rem;
 }
