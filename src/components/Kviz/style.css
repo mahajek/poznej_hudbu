@@ -8,10 +8,10 @@ barva zelená #0f7260 */
   margin: 0;
   margin-bottom: 1rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #f55d50;
-  letter-spacing: 1.2rem;
-  font-weight: bold;
+  letter-spacing: 0.6rem;
+  font-weight:bold;
   text-transform: uppercase;
 }
 .kviz {
@@ -19,17 +19,16 @@ barva zelená #0f7260 */
   width: 20rem;
   min-height: 12.5rem;
   height: min-content;
-  border-radius: 0.9rem;
   padding: 1.25rem;
   box-shadow: 10px 10px 42px 0px #082b42b2;
   /* justify-content: space-evenly; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   font-family: 'Open Sans Condensed';
   border-radius: 10%;
-  display: flex;
-  position: absolute;
+  /* display: flex; */
+  /* position: absolute;
   right: 5rem;
-  top: 12rem;
+  top: 12rem; */
 }
 
 .score-section {

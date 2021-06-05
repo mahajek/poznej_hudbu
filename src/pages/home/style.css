@@ -4,8 +4,11 @@ barva modrá = #082b42
 barva zelená #0f7260 */
 
 body {
+  margin: 0;
+  padding: 0;
   background-image: url(../../assets/img/pozadi.png);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 main {

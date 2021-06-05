@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-import './mp3.js';
+// import './mp3.js';
 
 export const Klavesy = (props) => {
   const [nota, setNota] = useState('');

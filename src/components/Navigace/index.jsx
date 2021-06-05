@@ -19,14 +19,6 @@ export const Navigace = (props) => {
       </NavLink>
 
       <NavLink
-        to="/poznej-pisnicky"
-        className="navigace__item navigace__item--songs"
-        activeClassName="is-active"
-      >
-        Poznej písničky
-      </NavLink>
-
-      <NavLink
         to="/poznej-nastroje"
         className="navigace__item navigace__item--instruments"
         activeClassName="is-active"
@@ -40,6 +32,14 @@ export const Navigace = (props) => {
         activeClassName="is-active"
       >
         Poznej umělce
+      </NavLink>
+
+      <NavLink
+        to="/poznej-pisnicky"
+        className="navigace__item navigace__item--songs"
+        activeClassName="is-active"
+      >
+        Poznej písničky
       </NavLink>
     </div>
   );

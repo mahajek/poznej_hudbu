@@ -19,11 +19,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .wrap {
   min-height: 100vh;
   padding-bottom: 4rem;
@@ -41,5 +36,3 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-

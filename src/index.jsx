@@ -19,14 +19,14 @@ const App = () => (
             <Route path="/poznej-noty">
               <Notes />
             </Route>
-            <Route path="/poznej-pisnicky">
-              <PoznejPisnicky />
-            </Route>
             <Route path="/poznej-nastroje">
               <Instruments nadpis="Poznej nástroje" />
             </Route>
             <Route path="/poznej-umelce">
               <Composers />
+            </Route>
+            <Route path="/poznej-pisnicky">
+              <PoznejPisnicky />
             </Route>
             <Route path="/">
               <Home />

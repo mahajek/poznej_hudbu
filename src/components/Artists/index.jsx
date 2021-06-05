@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 
 export const Artists = (props) => {
   const { label, picture, text, odkaz } = props;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+
 
 import { Artists } from '../Artists';
 
@@ -107,7 +107,7 @@ export const Umelci = () => {
 
   return (
     <div className="umelci">
-      <p className="umelci__paragraph">Představitelé klasické hudby</p>
+      <p className="umelci__nadpis">Představitelé klasické hudby</p>
       <div className="umelci__classic">
         {classic.map((item) => (
           <Artists
@@ -119,7 +119,7 @@ export const Umelci = () => {
           />
         ))}
       </div>
-      <p className="umelci__paragraph">Představitelé moderní hudby</p>
+      <p className="umelci__nadpis">Představitelé moderní hudby</p>
       <div className="umelci__modern">
         {modern.map((item) => (
           <Artists

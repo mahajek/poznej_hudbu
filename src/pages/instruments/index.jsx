@@ -6,7 +6,7 @@ import { Nastroje } from '../../components/Nastroje';
 import { Kviz } from '../../components/Kviz';
 import { Navigace } from '../../components/Navigace';
 
-export const Instruments = (props) => {
+export const Instruments = () => {
   const questions = [
     {
       questionText: 'Jaký nástroj je na obrázku?',
@@ -50,7 +50,7 @@ export const Instruments = (props) => {
     <>
       <main>
         <div className="main-page">
-          <h1 className="main-page__nadpis">{props.nadpis}</h1>
+          <h1 className="main-page__nadpis">Poznej nástroje</h1>
           <Navigace />
           <Kviz otazky={questions} />
           <Nastroje />

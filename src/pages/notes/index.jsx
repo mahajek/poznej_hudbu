@@ -4,8 +4,6 @@ import './style.css';
 
 import { Klavesy } from '../../components/Klavesy/index';
 import { Kviz } from '../../components/Kviz/index';
-/* import { ovcaciCtveraci } from './ovcaciCtveraci.js'; */
-import { Nota } from '../../components/Nota/index';
 import { Navigace } from '../../components/Navigace';
 
 export const Notes = () => {
@@ -50,19 +48,13 @@ export const Notes = () => {
     },
   ];
 
-  const [nota, setNota] = useState('');
-
-  const zahranaKlavesa = (klavesa) => {
-    setNota(klavesa);
-  };
-
   return (
     <>
       <main>
         <div className="main-page">
           <h1 className="main-page__nadpis">Poznej noty</h1>
           <Navigace />
-          <Klavesy zahrano={zahranaKlavesa} />
+          <Klavesy />
           <p>
             My jsme noty, těší nás. Vypadáme různě a podle toho, jestli máme
             plné bříško nebo ne, se ozýváme. S prázdným bříškem zpíváme dlouho,

@@ -4,8 +4,6 @@ import './style.css';
 
 import { Klavesy } from '../../components/Klavesy/index';
 import { Kviz } from '../../components/Kviz/index';
-import { ovcaciCtveraci } from './ovcaciCtveraci.js';
-import { Nota } from '../../components/Nota/index';
 import { Navigace } from '../../components/Navigace';
 
 export const PoznejPisnicky = () => {
@@ -89,7 +87,7 @@ export const PoznejPisnicky = () => {
             </div>
           </div>
         </div>
-        <Klavesy className="klavesy__pisnicky" zahrano={zahranaKlavesa} />
+        <Klavesy className="klavesy__pisnicky" />
         <Kviz otazky={questions} />
       </div>
     </>

@@ -20,7 +20,7 @@ export const Kviz = (props) => {
   };
 
   return (
-    <div className="kviz">
+    <div className="kviz kviz--noty kviz--nastroje kviz--umelci  kviz--pisnicky ">
       {showScore ? (
         <div className="score-section">
           Super! Máš {score} bodů z {props.otazky.length}

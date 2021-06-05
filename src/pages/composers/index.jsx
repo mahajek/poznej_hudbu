@@ -53,8 +53,10 @@ export const Composers = () => {
       <div className="main-page">
         <h1 className="main-page__nadpis">Poznej umělce</h1>
         <Navigace />
-        <Umelci />
-        <Kviz otazky={questions} />
+        <div className="main-page__position--umelci">
+          <Umelci />
+          <Kviz otazky={questions} />
+        </div>
       </div>
     </>
   );

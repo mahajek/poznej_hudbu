@@ -30,15 +30,15 @@ export const Home = () => {
           <section>
             <div className="notes">
               <Link to="/poznej-noty">Poznej noty</Link>
-            </div>
-            <div className="songs">
-              <Link to="/poznej-pisnicky">Poznej písničky</Link>
-            </div>
+            </div>           
             <div className="instruments">
               <Link to="/poznej-nastroje">Poznej nástroje</Link>
             </div>
             <div className="composers">
               <Link to="/poznej-umelce">Poznej umělce</Link>
+            </div>
+            <div className="songs">
+              <Link to="/poznej-pisnicky">Poznej písničky</Link>
             </div>
           </section>
         </div>
