@@ -10,6 +10,7 @@ export const Instruments = () => {
   const questions = [
     {
       questionText: 'Jaký nástroj je na obrázku?',
+      obrazek: '../../assets/img/kviz_saxofon.jpg',
       answerOptions: [
         { answerText: 'Akustická kytara', isCorrect: false },
         { answerText: 'Flétna', isCorrect: false },
@@ -18,30 +19,30 @@ export const Instruments = () => {
       ],
     },
     {
-      questionText: 'Who is CEO of Tesla?',
+      questionText: 'Pro jaký hudební žánr je typický mixážní pult?',
       answerOptions: [
-        { answerText: 'Jeff Bezos', isCorrect: false },
-        { answerText: 'Elon Musk', isCorrect: true },
-        { answerText: 'Bill Gates', isCorrect: false },
-        { answerText: 'Tony Stark', isCorrect: false },
+        { answerText: 'Jazz', isCorrect: false },
+        { answerText: 'Elektronická hudba', isCorrect: true },
+        { answerText: 'Klasická hudba', isCorrect: false },
+        { answerText: 'Heavy metal', isCorrect: false },
       ],
     },
     {
-      questionText: 'The iPhone was created by which company?',
+      questionText: 'Který nástroj v symfonickém orchestru nenajdeme?',
       answerOptions: [
-        { answerText: 'Apple', isCorrect: true },
-        { answerText: 'Intel', isCorrect: false },
-        { answerText: 'Amazon', isCorrect: false },
-        { answerText: 'Microsoft', isCorrect: false },
+        { answerText: 'Syntezátor', isCorrect: true },
+        { answerText: 'Housle', isCorrect: false },
+        { answerText: 'Hoboj', isCorrect: false },
+        { answerText: 'Klavír', isCorrect: false },
       ],
     },
     {
-      questionText: 'How many Harry Potter books are there?',
+      questionText: 'Do jaké skupiny nástrojů patří housle?',
       answerOptions: [
-        { answerText: '1', isCorrect: false },
-        { answerText: '4', isCorrect: false },
-        { answerText: '6', isCorrect: false },
-        { answerText: '7', isCorrect: true },
+        { answerText: 'Dechové', isCorrect: false },
+        { answerText: 'Bicí', isCorrect: false },
+        { answerText: 'Samozvučné', isCorrect: false },
+        { answerText: 'Strunné', isCorrect: true },
       ],
     },
   ];
