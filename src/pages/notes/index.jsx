@@ -59,14 +59,14 @@ export const Notes = () => {
           <div className="main-page__notes">
             <div>
               <Klavesy className="klavesy__notes"/>
-              <p className="notes__text">
+              <div className="notes__text">
                 My jsme noty, těší nás. Vypadáme různě a podle toho, jestli máme
                 plné bříško nebo ne, se ozýváme. S prázdným bříškem zpíváme
                 dlouho, s plným je náš zpěv o něco kratší. Řadíme se různě za
                 sebou a tak vznikají písničky. Mezi sebou máme i své kamarádky -
                 pomlky. Když se mezi nás zařadí, je chvíli ticho. Ale to nám
                 nevadí, my pak zpíváme dál.{' '}
-              </p>
+              </div>
               <div className="prehled-not">
                 <img src="../../assets/img/prehled_not.png" alt="Přehled not" />
               </div>

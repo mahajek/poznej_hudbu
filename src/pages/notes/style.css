@@ -17,7 +17,7 @@
   text-align: justify;
   font-weight: bold;
   font-size: 1.2rem;
-  /* row-gap: 1.2rem; */
+  row-gap: 1.2rem;
 }
 
 .prehled-not img {
@@ -31,7 +31,7 @@
 
 @media only screen and (max-width: 520px) {
   .klavesy__container {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-left: 0;
   }
 
@@ -41,10 +41,15 @@
   }
 
   .notes__text {
-    font-size: 3rem;
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+    max-width: 20rem;
+    height: auto;
+    /* border: 1px solid black; */
   }
 
   .prehled-not img {
-    margin-left: 1rem;
+    margin-left: 0rem;
+    size: 80%;
   }
 }

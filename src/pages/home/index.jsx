@@ -13,7 +13,7 @@ export const Home = () => {
           <h2 className="home-page__h2">
             Proč je hudba v životě dětí důležita?
           </h2>
-          <p className="home-page__text">
+          <div className="home-page__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
             consectetur dicta quia adipisci quos aliquid perspiciatis unde nulla
             omnis sit, consequatur suscipit dolorum corrupti impedit at animi
@@ -26,7 +26,7 @@ export const Home = () => {
             dignissimos aperiam et earum natus, tempora recusandae! Cum minima
             maiores perferendis voluptatum ut quo eaque et fugit facilis animi,
             id deserunt paria
-          </p>
+          </div>
           <section>
             <div className="notes">
               <Link to="/poznej-noty">Poznej noty</Link>

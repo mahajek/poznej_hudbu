@@ -114,28 +114,30 @@ y .image__overlay:hover > * {
 @media only screen and (max-width: 520px) {
   .main-page__nadpis {
     font-size: 4rem;
-    margin-left: 3.5rem;
+    margin-left: 3rem;
     margin-bottom: 0;
+    text-align: center;
   }
 
   .navigace {
-    margin: 1rem auto;
+    margin: 1rem 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex: 1 0 1rem;
-  }
-
-  .umelci {
-    margin: 0;
+    /* flex: 1 0 1rem; */
+    width: calc (100% / 2);
   }
 
   .navigace__item {
     display: flex;
-    flex-wrap: wrap;
-    width: 10rem;
-    height: 10rem;
-    font-size: 2rem;
+    /* flex-wrap: wrap; */
+    width: 9rem;
+    height: 9rem;
+    font-size: 1.8rem;
+  }
+
+  .umelci {
+    margin: 0;
   }
 
   .umelci__classic {
@@ -193,8 +195,25 @@ y .image__overlay:hover > * {
   }
 
   .klavesy {
-    font-size: 0.8rem;
-    margin-left: -3rem;
+    font-size: 0.65rem;
+    margin-left: -4.5rem;
+    margin-top: 0.5rem;
+  }
+  .bila__letter {
+    display: none;
+  }
+  .cerna__letter {
+    display: none;
+  }
+
+  .ton__letter {
+    font-size: 1.8rem;
+    margin-top: 7.6rem;
+  }
+
+  .toncerna__letter {
+    font-size: 1.5rem;
+    margin-top: 3.2rem;
   }
 }
 

@@ -212,7 +212,7 @@ export const Klavesy = (props) => {
     <div className="klavesy__container klavesy__container--size">
       <div className="klavesy">
         <button className={changeC1()} onClick={playC1}>
-          <span className="bila__letter">´(s)</span>
+          <span className="bila__letter" activeClassName="is-active">´(s)</span>
           <span className="ton__letter ton__letter--size">c1</span>
         </button>
 
@@ -252,7 +252,7 @@ export const Klavesy = (props) => {
         </button>
 
         <button className={changeCis()} onClick={playCis}>
-          <span className="cerna__letter">(e)</span>
+          <span className="cerna__letter" activeClassName="is-active">(e)</span>
           <span className="toncerna__letter toncerna__letter--size">cis</span>
         </button>
         <button className={changeDis()} onClick={playDis}>
