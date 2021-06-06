@@ -18,6 +18,7 @@ export const Home = () => {
             provázet po celý život. Jsem už hodně stará a dost si toho pamatuji.
             Spoustu lidí, kteří mě hýčkali, nástrojů, kterým jsem propůjčila
             hlas. Jsem tady vlastně od nepaměti a doufám, že ještě dlouho budu.
+          <br></br>
             I díky vám. V lidském životě jsem nedílnou součástí ať už si to sami
             uvědomujete nebo ne. Slyšíte mě už i u maminky v bříšku, představte
             si to! Mám spoustu podob, ale pořád jsem to já. Umím být vážná i
@@ -25,9 +26,11 @@ export const Home = () => {
             jakou mě kdo stvoří a jakou si mě vyberete. Jsem slyšet pomocí
             hudebních nástrojů nebo lidského hlasu a lidé si mě zapisují podle
             docela zvláštních značek - říká se jim noty. Všechno vám tady ukážu,
-            abyste mému světu lépe porozumněli, nemějte strach. Umím také
+            abyste mému světu lépe porozumněli, nemějte strach. 
+            <br></br>Umím také
             pomáhat - zkuste si pustit veselou písničku nebo si zazpívat, když
-            jste smutní. Uvidíte, že se zase začnete smát. A teď už honem, ať se
+            jste smutní. Uvidíte, že se zase začnete smát. 
+            <br></br><br></br>A teď už honem, ať se
             poznáme líp!
           </div>
           <section>

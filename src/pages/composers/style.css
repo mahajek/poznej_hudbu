@@ -192,7 +192,7 @@ y .image__overlay:hover > * {
   }
 
   .klavesy {
-    font-size: 0.65rem;
+    font-size: 0.62rem;
     margin-left: -4.5rem;
     margin-top: 0.5rem;
   }
@@ -205,11 +205,11 @@ y .image__overlay:hover > * {
 
   .ton__letter {
     font-size: 1.8rem;
-    margin-top: 7.6rem;
+    margin-top: 7rem;
   }
 
   .toncerna__letter {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin-top: 3.2rem;
   }
 }
@@ -234,5 +234,14 @@ y .image__overlay:hover > * {
   .klavesy {
     font-size: 1rem;
     margin-left: -2rem;
+  }
+  .navigace__item.is-active {
+    display: none;
+  }
+  .bila__letter {
+    display: none;
+  }
+  .cerna__letter {
+    display: none;
   }
 }
