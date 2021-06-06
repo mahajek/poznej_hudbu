@@ -54,15 +54,14 @@ body {
 
 @media only screen and (max-width: 520px) {
   .nastroje {
-    margin-top: 1rem auto;
-    margin-left: 2rem;
+    margin: 0 1.5rem 0 4rem;
   }
 
   .nastroje__item {
-    width: 20rem;
-    height: 20rem;
+    width: 12rem;
+    height: 12rem;
     background-color: white;
-    margin: 1rem;
+    margin: 0.5rem;
     border-radius: 50%;
     border-style: solid;
     border-color: white;

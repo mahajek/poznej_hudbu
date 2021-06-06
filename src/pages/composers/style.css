@@ -114,10 +114,9 @@ y .image__overlay:hover > * {
 @media only screen and (max-width: 520px) {
   .main-page__nadpis {
     font-size: 2.5rem;
-    margin-left: 1.7rem;
+    margin-left: 3rem;
     margin-bottom: 0;
     margin-top: 0;
-    text-align: center;
   }
 
   .navigace {

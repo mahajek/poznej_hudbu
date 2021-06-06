@@ -125,19 +125,19 @@ button svg {
 
 @media only screen and (max-width: 520px) {
   .kviz__nadpis {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
   .kviz {
-    width: 22rem;
+    width: 20rem;
     margin: 2rem auto;
   }
 
   .score-section {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .question-count span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .otazka {
@@ -145,7 +145,7 @@ button svg {
   }
 
   .tlacitko-kviz {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .obrazek {
     max-height: 12rem;

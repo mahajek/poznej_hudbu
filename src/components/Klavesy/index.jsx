@@ -20,67 +20,67 @@ export const Klavesy = (props) => {
 
   // zahraje tón, fce zahrano - předává hodnotu do rodiče Notes
   const playC1 = () => {
-    new Audio('./assets/tony/c1.mp3').play();
+    new Audio('./assets/tony/C1.mp3').play();
     setNota('playC1');
     zahrano('C');
   };
   const playD = () => {
-    new Audio('./assets/tony/d.mp3').play();
+    new Audio('./assets/tony/D.mp3').play();
     setNota('playD');
     zahrano('D');
   };
   const playE = () => {
-    new Audio('./assets/tony/e.mp3').play();
+    new Audio('./assets/tony/E.mp3').play();
     setNota('playE');
     zahrano('E');
   };
   const playF = () => {
-    new Audio('./assets/tony/f.mp3').play();
+    new Audio('./assets/tony/F.mp3').play();
     setNota('playF');
     zahrano('F');
   };
   const playG = () => {
-    new Audio('./assets/tony/g.mp3').play();
+    new Audio('./assets/tony/G.mp3').play();
     setNota('playG');
     zahrano('G');
   };
   const playA = () => {
-    new Audio('./assets/tony/a.mp3').play();
+    new Audio('./assets/tony/A.mp3').play();
     setNota('playA');
     zahrano('A');
   };
   const playH = () => {
-    new Audio('./assets/tony/h.mp3').play();
+    new Audio('./assets/tony/H.mp3').play();
     setNota('playH');
     zahrano('H');
   };
   const playC2 = () => {
-    new Audio('./assets/tony/c2.mp3').play();
+    new Audio('./assets/tony/C2.mp3').play();
     setNota('playC2');
     zahrano('C2');
   };
   const playCis = () => {
-    new Audio('./assets/tony/cis.mp3').play();
+    new Audio('./assets/tony/Cis.mp3').play();
     setNota('playCis');
     zahrano('Cis');
   };
   const playDis = () => {
-    new Audio('./assets/tony/dis.mp3').play();
+    new Audio('./assets/tony/Dis.mp3').play();
     setNota('playDis');
     zahrano('Dis');
   };
   const playFis = () => {
-    new Audio('./assets/tony/fis.mp3').play();
+    new Audio('./assets/tony/Fis.mp3').play();
     setNota('playFis');
     zahrano('Fis');
   };
   const playGis = () => {
-    new Audio('./assets/tony/gis.mp3').play();
+    new Audio('./assets/tony/Gis.mp3').play();
     setNota('playGis');
     zahrano('Gis');
   };
   const playAis = () => {
-    new Audio('./assets/tony/ais.mp3').play();
+    new Audio('./assets/tony/Ais.mp3').play();
     setNota('playAis');
     zahrano('Ais');
   };
