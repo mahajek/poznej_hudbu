@@ -14,23 +14,26 @@ export const Home = () => {
             Proč je hudba v životě dětí důležita?
           </h2>
           <div className="home-page__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-            consectetur dicta quia adipisci quos aliquid perspiciatis unde nulla
-            omnis sit, consequatur suscipit dolorum corrupti impedit at animi
-            maxime reiciendis officiis? Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Amet ipsam minus natus accusantium quis
-            praesentium quod ab quidem. Sapiente sunt praesentium quia facere
-            pariatur ipsa molestias nesciunt veniam ad dolorum?Lorem ipsum,
-            dolor sit amet consectetur adipisicing elit. Voluptas id assumenda
-            fuga architecto voluptatibus mollitia, alias nobis atque qui
-            dignissimos aperiam et earum natus, tempora recusandae! Cum minima
-            maiores perferendis voluptatum ut quo eaque et fugit facilis animi,
-            id deserunt paria
+            Vítám vás všechny na svých stránkách. Jmenuji se Hudba a budu vás
+            provázet po celý život. Jsem už hodně stará a dost si toho pamatuji.
+            Spoustu lidí, kteří mě hýčkali, nástrojů, kterým jsem propůjčila
+            hlas. Jsem tady vlastně od nepaměti a doufám, že ještě dlouho budu.
+            I díky vám. V lidském životě jsem nedílnou součástí ať už si to sami
+            uvědomujete nebo ne. Slyšíte mě už i u maminky v bříšku, představte
+            si to! Mám spoustu podob, ale pořád jsem to já. Umím být vážná i
+            rozpustilá. Veselá i hodně smutná. Pomalá a nebo rychlá. Záleží,
+            jakou mě kdo stvoří a jakou si mě vyberete. Jsem slyšet pomocí
+            hudebních nástrojů nebo lidského hlasu a lidé si mě zapisují podle
+            docela zvláštních značek - říká se jim noty. Všechno vám tady ukážu,
+            abyste mému světu lépe porozumněli, nemějte strach. Umím také
+            pomáhat - zkuste si pustit veselou písničku nebo si zazpívat, když
+            jste smutní. Uvidíte, že se zase začnete smát. A teď už honem, ať se
+            poznáme líp!
           </div>
           <section>
             <div className="notes">
               <Link to="/poznej-noty">Poznej noty</Link>
-            </div>           
+            </div>
             <div className="instruments">
               <Link to="/poznej-nastroje">Poznej nástroje</Link>
             </div>
