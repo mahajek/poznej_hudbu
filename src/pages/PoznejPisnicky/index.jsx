@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
-import { Klavesy } from '../../components/Klavesy/';
-import { Kviz } from '../../components/Kviz/';
+import { Klavesy } from '../../components/Klavesy';
+import { Kviz } from '../../components/Kviz';
 import { Navigace } from '../../components/Navigace';
 
 export const PoznejPisnicky = () => {

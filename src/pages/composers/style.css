@@ -113,27 +113,25 @@ y .image__overlay:hover > * {
 
 @media only screen and (max-width: 520px) {
   .main-page__nadpis {
-    font-size: 4rem;
-    margin-left: 3rem;
+    font-size: 2.5rem;
+    margin-left: 1.7rem;
     margin-bottom: 0;
+    margin-top: 0;
     text-align: center;
   }
 
   .navigace {
-    margin: 1rem 2rem;
+    margin: 1rem 2rem 2rem 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* flex: 1 0 1rem; */
-    width: calc (100% / 2);
   }
 
   .navigace__item {
-    display: flex;
-    /* flex-wrap: wrap; */
-    width: 9rem;
-    height: 9rem;
-    font-size: 1.8rem;
+    width: 8rem;
+    height: 8rem;
+    font-size: 1.6rem;
+    margin: 0.6rem 0.2rem;
   }
 
   .umelci {

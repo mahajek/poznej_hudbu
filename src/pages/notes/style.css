@@ -30,26 +30,18 @@
 /* stylování pro mobil */
 
 @media only screen and (max-width: 520px) {
-  .klavesy__container {
-    font-size: 1.8rem;
-    margin-left: 0;
-  }
-
-  .klavesy {
-    margin: 0;
-    margin-left: 0;
-  }
-
   .notes__text {
     font-size: 1.6rem;
     margin-left: 1.5rem;
+    margin-top: 1.5rem;
     max-width: 20rem;
     height: auto;
     /* border: 1px solid black; */
   }
 
   .prehled-not img {
-    margin-left: 0rem;
-    size: 80%;
+    margin-left: -1rem;
+    margin-top: 1rem;
+    size: 70%;
   }
 }
