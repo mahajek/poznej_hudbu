@@ -1,9 +1,12 @@
-@import url('https://allfont.net/allfont.css?fonts=league-spartan');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @font-face {
   font-family: 'Noty';
   src: url('./assets/fonts/Musiqwik-rvL8.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'League Spartan Bold';
+  src: url('./assets/fonts/Spartan.ttf') format('truetype');
 }
 
 html {

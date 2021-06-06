@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
-import { Klavesy } from '../../components/Klavesy/index';
-import { Kviz } from '../../components/Kviz/index';
+import { Klavesy } from '../../components/Klavesy';
+import { Kviz } from '../../components/Kviz';
 import { Navigace } from '../../components/Navigace';
 
 export const Notes = () => {
@@ -52,13 +52,13 @@ export const Notes = () => {
     <>
       <main>
         <div className="main-page">
-        <div className="main-page__navigace">
-          <h1 className="main-page__nadpis">Poznej noty</h1>
-          <Navigace />
+          <div className="main-page__navigace">
+            <h1 className="main-page__nadpis">Poznej noty</h1>
+            <Navigace />
           </div>
           <div className="main-page__notes">
             <div>
-              <Klavesy className="klavesy__notes"/>
+              <Klavesy className="klavesy__notes" />
               <div className="notes__text">
                 My jsme noty, těší nás. Vypadáme různě a podle toho, jestli máme
                 plné bříško nebo ne, se ozýváme. S prázdným bříškem zpíváme
@@ -70,9 +70,8 @@ export const Notes = () => {
               <div className="prehled-not">
                 <img src="../../assets/img/prehled_not.png" alt="Přehled not" />
               </div>
-              </div>
-              <Kviz otazky={questions} />
-            
+            </div>
+            <Kviz otazky={questions} />
           </div>
         </div>
       </main>
