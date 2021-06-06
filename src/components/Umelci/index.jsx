@@ -92,13 +92,13 @@ export const Umelci = () => {
     },
     {
       label: 'Zdeněk Svěrák a Jaroslav Uhlíř',
-      picture: '../../assets/img/sverakuhlir.jpg',
+      picture: '../../assets/img/sverakuhlir.JPG',
       text: 'Skladatelská dvojice, známá pro svou “Hodinu zpěvu”, ale také filmovou hudbu. Například pro film “Vratné láhve” nebo pohádku “Tři veteráni”.',
       odkaz: 'https://www.youtube.com/watch?v=9YWcQRKNyjM',
     },
     {
       label: 'Jaroslav Samson Lenk',
-      picture: '../../assets/img/lenk.jpg',
+      picture: '../../assets/img/lenk.JPG',
       text: 'Folkový písničkář hrající také s Vlastou Redlem. Složil hudbu i k několika Večerníčkům. Držitel několika zlatých a platinových desek.',
       odkaz: 'https://www.youtube.com/watch?v=1f54CYTpDp4',
     },
